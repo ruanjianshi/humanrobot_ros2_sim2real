@@ -1,0 +1,709 @@
+[0.000000] (-) TimerEvent: {}
+[0.001864] (lpms_ig1) JobQueued: {'identifier': 'lpms_ig1', 'dependencies': OrderedDict()}
+[0.002623] (lpms_ig1) JobStarted: {'identifier': 'lpms_ig1'}
+[0.035772] (lpms_ig1) JobProgress: {'identifier': 'lpms_ig1', 'progress': 'cmake'}
+[0.040723] (lpms_ig1) JobProgress: {'identifier': 'lpms_ig1', 'progress': 'build'}
+[0.044679] (lpms_ig1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '10.16.2.95 58219 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu'), ('TERM_PROGRAM_VERSION', '1.126.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-94f6b36e-3d46-4d29-b45f-5a7c1cda0cb8.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunrise/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/sunrise/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/sunrise/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/remote-cli:/home/sunrise/.local/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.local/bin:/home/sunrise/.local/bin:/home/sunrise/.local/bin:/home/sunrise/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-743c0150e2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1'), ('COPILOT_DEBUG_NONCE', '1f7c253e609d383c86ee4119bbefbe77'), ('SSH_CONNECTION', '10.16.2.95 58219 10.16.3.181 22'), ('PYTHONPATH', '/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble')]), 'shell': False}
+[0.098866] (-) TimerEvent: {}
+[0.157040] (lpms_ig1) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199041] (-) TimerEvent: {}
+[0.299995] (-) TimerEvent: {}
+[0.400789] (-) TimerEvent: {}
+[0.501644] (-) TimerEvent: {}
+[0.602619] (-) TimerEvent: {}
+[0.703479] (-) TimerEvent: {}
+[0.804361] (-) TimerEvent: {}
+[0.903113] (lpms_ig1) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.904474] (-) TimerEvent: {}
+[1.005300] (-) TimerEvent: {}
+[1.035458] (lpms_ig1) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.049694] (lpms_ig1) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.080453] (lpms_ig1) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.105493] (-) TimerEvent: {}
+[1.133300] (lpms_ig1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.200198] (lpms_ig1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.205610] (-) TimerEvent: {}
+[1.306414] (-) TimerEvent: {}
+[1.369704] (lpms_ig1) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.376171] (lpms_ig1) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.406562] (-) TimerEvent: {}
+[1.507396] (-) TimerEvent: {}
+[1.608250] (-) TimerEvent: {}
+[1.709141] (-) TimerEvent: {}
+[1.810058] (-) TimerEvent: {}
+[1.811741] (lpms_ig1) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.910255] (-) TimerEvent: {}
+[2.011103] (-) TimerEvent: {}
+[2.081308] (lpms_ig1) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.111299] (-) TimerEvent: {}
+[2.212154] (-) TimerEvent: {}
+[2.242697] (lpms_ig1) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[2.289156] (lpms_ig1) StdoutLine: {'line': b'-- Found tf2: 0.25.15 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.312342] (-) TimerEvent: {}
+[2.327850] (lpms_ig1) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.412505] (-) TimerEvent: {}
+[2.513341] (-) TimerEvent: {}
+[2.614198] (-) TimerEvent: {}
+[2.715076] (-) TimerEvent: {}
+[2.717745] (lpms_ig1) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.723198] (lpms_ig1) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.724271] (lpms_ig1) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.724898] (lpms_ig1) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.728730] (lpms_ig1) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.729352] (lpms_ig1) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.730582] (lpms_ig1) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.732712] (lpms_ig1) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.734386] (lpms_ig1) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.738626] (lpms_ig1) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.739453] (lpms_ig1) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.740699] (lpms_ig1) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.744492] (lpms_ig1) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.815293] (-) TimerEvent: {}
+[2.830413] (lpms_ig1) StdoutLine: {'line': b'-- Generating done\n'}
+[2.868055] (lpms_ig1) StdoutLine: {'line': b'-- Build files have been written to: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1\n'}
+[2.915510] (-) TimerEvent: {}
+[2.976760] (lpms_ig1) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/lpms_si1_node.dir/flags.make' has modification time 835687965 s in the future\n"}
+[2.978231] (lpms_ig1) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/quat_to_euler_node.dir/flags.make' has modification time 835687965 s in the future\n"}
+[2.978929] (lpms_ig1) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/imudata_rad_to_deg_node.dir/flags.make' has modification time 835687965 s in the future\n"}
+[3.013398] (lpms_ig1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target imudata_rad_to_deg_node\x1b[0m\n'}
+[3.014279] (lpms_ig1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target quat_to_euler_node\x1b[0m\n'}
+[3.014790] (lpms_ig1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lpms_si1_node\x1b[0m\n'}
+[3.015573] (-) TimerEvent: {}
+[3.046598] (lpms_ig1) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[3.047589] (lpms_ig1) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[3.048234] (lpms_ig1) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[3.066054] (lpms_ig1) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/imudata_rad_to_deg_node.dir/flags.make' has modification time 835687965 s in the future\n"}
+[3.066930] (lpms_ig1) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/quat_to_euler_node.dir/flags.make' has modification time 835687965 s in the future\n"}
+[3.067502] (lpms_ig1) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/lpms_si1_node.dir/flags.make' has modification time 835687965 s in the future\n"}
+[3.106983] (lpms_ig1) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/quat_to_euler_node.dir/src/quat_to_euler_node.cpp.o\x1b[0m\n'}
+[3.107831] (lpms_ig1) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/imudata_rad_to_deg_node.dir/src/imudata_rad_to_deg_node.cpp.o\x1b[0m\n'}
+[3.108409] (lpms_ig1) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lpms_si1_node.dir/src/lpms_si1_node.cpp.o\x1b[0m\n'}
+[3.115851] (-) TimerEvent: {}
+[3.216784] (-) TimerEvent: {}
+[3.317710] (-) TimerEvent: {}
+[3.418637] (-) TimerEvent: {}
+[3.519587] (-) TimerEvent: {}
+[3.620508] (-) TimerEvent: {}
+[3.721452] (-) TimerEvent: {}
+[3.822398] (-) TimerEvent: {}
+[3.923335] (-) TimerEvent: {}
+[4.024234] (-) TimerEvent: {}
+[4.125115] (-) TimerEvent: {}
+[4.226027] (-) TimerEvent: {}
+[4.326969] (-) TimerEvent: {}
+[4.427940] (-) TimerEvent: {}
+[4.528893] (-) TimerEvent: {}
+[4.629890] (-) TimerEvent: {}
+[4.730849] (-) TimerEvent: {}
+[4.831799] (-) TimerEvent: {}
+[4.932848] (-) TimerEvent: {}
+[5.033811] (-) TimerEvent: {}
+[5.134802] (-) TimerEvent: {}
+[5.235803] (-) TimerEvent: {}
+[5.336787] (-) TimerEvent: {}
+[5.437739] (-) TimerEvent: {}
+[5.538694] (-) TimerEvent: {}
+[5.639662] (-) TimerEvent: {}
+[5.740643] (-) TimerEvent: {}
+[5.841637] (-) TimerEvent: {}
+[5.942751] (-) TimerEvent: {}
+[6.043785] (-) TimerEvent: {}
+[6.144854] (-) TimerEvent: {}
+[6.245895] (-) TimerEvent: {}
+[6.347097] (-) TimerEvent: {}
+[6.448146] (-) TimerEvent: {}
+[6.549250] (-) TimerEvent: {}
+[6.650282] (-) TimerEvent: {}
+[6.751343] (-) TimerEvent: {}
+[6.852408] (-) TimerEvent: {}
+[6.953349] (-) TimerEvent: {}
+[7.054325] (-) TimerEvent: {}
+[7.155244] (-) TimerEvent: {}
+[7.256181] (-) TimerEvent: {}
+[7.357162] (-) TimerEvent: {}
+[7.458118] (-) TimerEvent: {}
+[7.559080] (-) TimerEvent: {}
+[7.660035] (-) TimerEvent: {}
+[7.761097] (-) TimerEvent: {}
+[7.862204] (-) TimerEvent: {}
+[7.963199] (-) TimerEvent: {}
+[8.064185] (-) TimerEvent: {}
+[8.165166] (-) TimerEvent: {}
+[8.266188] (-) TimerEvent: {}
+[8.367177] (-) TimerEvent: {}
+[8.468140] (-) TimerEvent: {}
+[8.569134] (-) TimerEvent: {}
+[8.670084] (-) TimerEvent: {}
+[8.771060] (-) TimerEvent: {}
+[8.872039] (-) TimerEvent: {}
+[8.973044] (-) TimerEvent: {}
+[9.074009] (-) TimerEvent: {}
+[9.174980] (-) TimerEvent: {}
+[9.301709] (-) TimerEvent: {}
+[9.402783] (-) TimerEvent: {}
+[9.503810] (-) TimerEvent: {}
+[9.604835] (-) TimerEvent: {}
+[9.705819] (-) TimerEvent: {}
+[9.806879] (-) TimerEvent: {}
+[9.907883] (-) TimerEvent: {}
+[10.008952] (-) TimerEvent: {}
+[10.110010] (-) TimerEvent: {}
+[10.211075] (-) TimerEvent: {}
+[10.312239] (-) TimerEvent: {}
+[10.413325] (-) TimerEvent: {}
+[10.514421] (-) TimerEvent: {}
+[10.615486] (-) TimerEvent: {}
+[10.716543] (-) TimerEvent: {}
+[10.817600] (-) TimerEvent: {}
+[10.918676] (-) TimerEvent: {}
+[11.019762] (-) TimerEvent: {}
+[11.120808] (-) TimerEvent: {}
+[11.221881] (-) TimerEvent: {}
+[11.322988] (-) TimerEvent: {}
+[11.424046] (-) TimerEvent: {}
+[11.525088] (-) TimerEvent: {}
+[11.626134] (-) TimerEvent: {}
+[11.727135] (-) TimerEvent: {}
+[11.828104] (-) TimerEvent: {}
+[11.929077] (-) TimerEvent: {}
+[12.030072] (-) TimerEvent: {}
+[12.131057] (-) TimerEvent: {}
+[12.232039] (-) TimerEvent: {}
+[12.333072] (-) TimerEvent: {}
+[12.434058] (-) TimerEvent: {}
+[12.535041] (-) TimerEvent: {}
+[12.636016] (-) TimerEvent: {}
+[12.736970] (-) TimerEvent: {}
+[12.837955] (-) TimerEvent: {}
+[12.938945] (-) TimerEvent: {}
+[13.039886] (-) TimerEvent: {}
+[13.140846] (-) TimerEvent: {}
+[13.241814] (-) TimerEvent: {}
+[13.342836] (-) TimerEvent: {}
+[13.443803] (-) TimerEvent: {}
+[13.544842] (-) TimerEvent: {}
+[13.645843] (-) TimerEvent: {}
+[13.746886] (-) TimerEvent: {}
+[13.847880] (-) TimerEvent: {}
+[13.948900] (-) TimerEvent: {}
+[14.049870] (-) TimerEvent: {}
+[14.150838] (-) TimerEvent: {}
+[14.251823] (-) TimerEvent: {}
+[14.352870] (-) TimerEvent: {}
+[14.453840] (-) TimerEvent: {}
+[14.554848] (-) TimerEvent: {}
+[14.655851] (-) TimerEvent: {}
+[14.756829] (-) TimerEvent: {}
+[14.857807] (-) TimerEvent: {}
+[14.958736] (-) TimerEvent: {}
+[15.059684] (-) TimerEvent: {}
+[15.160646] (-) TimerEvent: {}
+[15.261624] (-) TimerEvent: {}
+[15.362583] (-) TimerEvent: {}
+[15.463566] (-) TimerEvent: {}
+[15.564522] (-) TimerEvent: {}
+[15.665485] (-) TimerEvent: {}
+[15.766436] (-) TimerEvent: {}
+[15.867399] (-) TimerEvent: {}
+[15.968361] (-) TimerEvent: {}
+[16.069355] (-) TimerEvent: {}
+[16.170336] (-) TimerEvent: {}
+[16.271340] (-) TimerEvent: {}
+[16.372361] (-) TimerEvent: {}
+[16.473322] (-) TimerEvent: {}
+[16.574258] (-) TimerEvent: {}
+[16.675223] (-) TimerEvent: {}
+[16.776210] (-) TimerEvent: {}
+[16.877226] (-) TimerEvent: {}
+[16.978209] (-) TimerEvent: {}
+[17.079157] (-) TimerEvent: {}
+[17.180120] (-) TimerEvent: {}
+[17.281103] (-) TimerEvent: {}
+[17.382119] (-) TimerEvent: {}
+[17.483135] (-) TimerEvent: {}
+[17.584096] (-) TimerEvent: {}
+[17.685088] (-) TimerEvent: {}
+[17.786085] (-) TimerEvent: {}
+[17.887059] (-) TimerEvent: {}
+[17.988027] (-) TimerEvent: {}
+[18.088984] (-) TimerEvent: {}
+[18.189945] (-) TimerEvent: {}
+[18.290901] (-) TimerEvent: {}
+[18.391917] (-) TimerEvent: {}
+[18.493059] (-) TimerEvent: {}
+[18.594028] (-) TimerEvent: {}
+[18.695007] (-) TimerEvent: {}
+[18.715023] (lpms_ig1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example/src/lpms_si1_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool LpSI1Proxy::resetHeading(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.715959] (lpms_ig1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example/src/lpms_si1_node.cpp:277:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.716664] (lpms_ig1) StderrLine: {'line': b'  277 |         \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> req\x1b[m\x1b[K,\n'}
+[18.717273] (lpms_ig1) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[18.720379] (lpms_ig1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example/src/lpms_si1_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool LpSI1Proxy::calibrateGyroscope(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.721314] (lpms_ig1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example/src/lpms_si1_node.cpp:292:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.722409] (lpms_ig1) StderrLine: {'line': b'  292 |         \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> req\x1b[m\x1b[K,\n'}
+[18.723670] (lpms_ig1) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[18.724317] (lpms_ig1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example/src/lpms_si1_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool LpSI1Proxy::getImuData(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.724945] (lpms_ig1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example/src/lpms_si1_node.cpp:307:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.725548] (lpms_ig1) StderrLine: {'line': b'  307 |         \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> req\x1b[m\x1b[K,\n'}
+[18.726133] (lpms_ig1) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[18.726710] (lpms_ig1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example/src/lpms_si1_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool LpSI1Proxy::setStreamingMode(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.727357] (lpms_ig1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example/src/lpms_si1_node.cpp:319:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.728011] (lpms_ig1) StderrLine: {'line': b'  319 |         \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> req\x1b[m\x1b[K,\n'}
+[18.728661] (lpms_ig1) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[18.729287] (lpms_ig1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example/src/lpms_si1_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool LpSI1Proxy::setCommandMode(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.729914] (lpms_ig1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example/src/lpms_si1_node.cpp:329:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.730584] (lpms_ig1) StderrLine: {'line': b'  329 |         \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> req\x1b[m\x1b[K,\n'}
+[18.731171] (lpms_ig1) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[18.795217] (-) TimerEvent: {}
+[18.896180] (-) TimerEvent: {}
+[18.997169] (-) TimerEvent: {}
+[19.098120] (-) TimerEvent: {}
+[19.206941] (-) TimerEvent: {}
+[19.308064] (-) TimerEvent: {}
+[19.409159] (-) TimerEvent: {}
+[19.510382] (-) TimerEvent: {}
+[19.611448] (-) TimerEvent: {}
+[19.712539] (-) TimerEvent: {}
+[19.813511] (-) TimerEvent: {}
+[19.914497] (-) TimerEvent: {}
+[20.015477] (-) TimerEvent: {}
+[20.116474] (-) TimerEvent: {}
+[20.217458] (-) TimerEvent: {}
+[20.318440] (-) TimerEvent: {}
+[20.419438] (-) TimerEvent: {}
+[20.520417] (-) TimerEvent: {}
+[20.621409] (-) TimerEvent: {}
+[20.722397] (-) TimerEvent: {}
+[20.823373] (-) TimerEvent: {}
+[20.924367] (-) TimerEvent: {}
+[21.025381] (-) TimerEvent: {}
+[21.126359] (-) TimerEvent: {}
+[21.227364] (-) TimerEvent: {}
+[21.328397] (-) TimerEvent: {}
+[21.429378] (-) TimerEvent: {}
+[21.530354] (-) TimerEvent: {}
+[21.631355] (-) TimerEvent: {}
+[21.732392] (-) TimerEvent: {}
+[21.833412] (-) TimerEvent: {}
+[21.934421] (-) TimerEvent: {}
+[22.035406] (-) TimerEvent: {}
+[22.136389] (-) TimerEvent: {}
+[22.239687] (-) TimerEvent: {}
+[22.369147] (-) TimerEvent: {}
+[22.503236] (-) TimerEvent: {}
+[22.604211] (-) TimerEvent: {}
+[22.705188] (-) TimerEvent: {}
+[22.806188] (-) TimerEvent: {}
+[22.907171] (-) TimerEvent: {}
+[23.008220] (-) TimerEvent: {}
+[23.109227] (-) TimerEvent: {}
+[23.210257] (-) TimerEvent: {}
+[23.311247] (-) TimerEvent: {}
+[23.412283] (-) TimerEvent: {}
+[23.513285] (-) TimerEvent: {}
+[23.614305] (-) TimerEvent: {}
+[23.715280] (-) TimerEvent: {}
+[23.816269] (-) TimerEvent: {}
+[23.917262] (-) TimerEvent: {}
+[24.018253] (-) TimerEvent: {}
+[24.119241] (-) TimerEvent: {}
+[24.220236] (-) TimerEvent: {}
+[24.321223] (-) TimerEvent: {}
+[24.422265] (-) TimerEvent: {}
+[24.523238] (-) TimerEvent: {}
+[24.624225] (-) TimerEvent: {}
+[24.725192] (-) TimerEvent: {}
+[24.826166] (-) TimerEvent: {}
+[24.927140] (-) TimerEvent: {}
+[25.028135] (-) TimerEvent: {}
+[25.129159] (-) TimerEvent: {}
+[25.230156] (-) TimerEvent: {}
+[25.331159] (-) TimerEvent: {}
+[25.432136] (-) TimerEvent: {}
+[25.533135] (-) TimerEvent: {}
+[25.634163] (-) TimerEvent: {}
+[25.735104] (-) TimerEvent: {}
+[25.836092] (-) TimerEvent: {}
+[25.937097] (-) TimerEvent: {}
+[26.038080] (-) TimerEvent: {}
+[26.139042] (-) TimerEvent: {}
+[26.240008] (-) TimerEvent: {}
+[26.340966] (-) TimerEvent: {}
+[26.441917] (-) TimerEvent: {}
+[26.542896] (-) TimerEvent: {}
+[26.643830] (-) TimerEvent: {}
+[26.744771] (-) TimerEvent: {}
+[26.845743] (-) TimerEvent: {}
+[26.946678] (-) TimerEvent: {}
+[27.047610] (-) TimerEvent: {}
+[27.148533] (-) TimerEvent: {}
+[27.249469] (-) TimerEvent: {}
+[27.350418] (-) TimerEvent: {}
+[27.451442] (-) TimerEvent: {}
+[27.552491] (-) TimerEvent: {}
+[27.653541] (-) TimerEvent: {}
+[27.754569] (-) TimerEvent: {}
+[27.855643] (-) TimerEvent: {}
+[27.956739] (-) TimerEvent: {}
+[28.057910] (-) TimerEvent: {}
+[28.159004] (-) TimerEvent: {}
+[28.260106] (-) TimerEvent: {}
+[28.361180] (-) TimerEvent: {}
+[28.462288] (-) TimerEvent: {}
+[28.563336] (-) TimerEvent: {}
+[28.664325] (-) TimerEvent: {}
+[28.765310] (-) TimerEvent: {}
+[28.866297] (-) TimerEvent: {}
+[28.967286] (-) TimerEvent: {}
+[29.068267] (-) TimerEvent: {}
+[29.169237] (-) TimerEvent: {}
+[29.270263] (-) TimerEvent: {}
+[29.371228] (-) TimerEvent: {}
+[29.472292] (-) TimerEvent: {}
+[29.573268] (-) TimerEvent: {}
+[29.674248] (-) TimerEvent: {}
+[29.775238] (-) TimerEvent: {}
+[29.876228] (-) TimerEvent: {}
+[29.977222] (-) TimerEvent: {}
+[30.078213] (-) TimerEvent: {}
+[30.179169] (-) TimerEvent: {}
+[30.280185] (-) TimerEvent: {}
+[30.381134] (-) TimerEvent: {}
+[30.482113] (-) TimerEvent: {}
+[30.583131] (-) TimerEvent: {}
+[30.684125] (-) TimerEvent: {}
+[30.785144] (-) TimerEvent: {}
+[30.886141] (-) TimerEvent: {}
+[30.987118] (-) TimerEvent: {}
+[31.088074] (-) TimerEvent: {}
+[31.189047] (-) TimerEvent: {}
+[31.290024] (-) TimerEvent: {}
+[31.391007] (-) TimerEvent: {}
+[31.491953] (-) TimerEvent: {}
+[31.592955] (-) TimerEvent: {}
+[31.693925] (-) TimerEvent: {}
+[31.794933] (-) TimerEvent: {}
+[31.896012] (-) TimerEvent: {}
+[31.997016] (-) TimerEvent: {}
+[32.097996] (-) TimerEvent: {}
+[32.198968] (-) TimerEvent: {}
+[32.299936] (-) TimerEvent: {}
+[32.400883] (-) TimerEvent: {}
+[32.501841] (-) TimerEvent: {}
+[32.602840] (-) TimerEvent: {}
+[32.703793] (-) TimerEvent: {}
+[32.804778] (-) TimerEvent: {}
+[32.905857] (-) TimerEvent: {}
+[33.006860] (-) TimerEvent: {}
+[33.107895] (-) TimerEvent: {}
+[33.208916] (-) TimerEvent: {}
+[33.309954] (-) TimerEvent: {}
+[33.410975] (-) TimerEvent: {}
+[33.511996] (-) TimerEvent: {}
+[33.613053] (-) TimerEvent: {}
+[33.714025] (-) TimerEvent: {}
+[33.815001] (-) TimerEvent: {}
+[33.916012] (-) TimerEvent: {}
+[34.016987] (-) TimerEvent: {}
+[34.117959] (-) TimerEvent: {}
+[34.218938] (-) TimerEvent: {}
+[34.319943] (-) TimerEvent: {}
+[34.420915] (-) TimerEvent: {}
+[34.521898] (-) TimerEvent: {}
+[34.622924] (-) TimerEvent: {}
+[34.723892] (-) TimerEvent: {}
+[34.824869] (-) TimerEvent: {}
+[34.925848] (-) TimerEvent: {}
+[35.026838] (-) TimerEvent: {}
+[35.127843] (-) TimerEvent: {}
+[35.228855] (-) TimerEvent: {}
+[35.329818] (-) TimerEvent: {}
+[35.430794] (-) TimerEvent: {}
+[35.531811] (-) TimerEvent: {}
+[35.632845] (-) TimerEvent: {}
+[35.733835] (-) TimerEvent: {}
+[35.834810] (-) TimerEvent: {}
+[35.935804] (-) TimerEvent: {}
+[36.036789] (-) TimerEvent: {}
+[36.137827] (-) TimerEvent: {}
+[36.238865] (-) TimerEvent: {}
+[36.339886] (-) TimerEvent: {}
+[36.440901] (-) TimerEvent: {}
+[36.541914] (-) TimerEvent: {}
+[36.642965] (-) TimerEvent: {}
+[36.743955] (-) TimerEvent: {}
+[36.844952] (-) TimerEvent: {}
+[36.945941] (-) TimerEvent: {}
+[37.046965] (-) TimerEvent: {}
+[37.147984] (-) TimerEvent: {}
+[37.248991] (-) TimerEvent: {}
+[37.350003] (-) TimerEvent: {}
+[37.451031] (-) TimerEvent: {}
+[37.552039] (-) TimerEvent: {}
+[37.653088] (-) TimerEvent: {}
+[37.754088] (-) TimerEvent: {}
+[37.855092] (-) TimerEvent: {}
+[37.956085] (-) TimerEvent: {}
+[38.514128] (-) TimerEvent: {}
+[38.615152] (-) TimerEvent: {}
+[38.716115] (-) TimerEvent: {}
+[38.817099] (-) TimerEvent: {}
+[38.918119] (-) TimerEvent: {}
+[39.019167] (-) TimerEvent: {}
+[39.120154] (-) TimerEvent: {}
+[39.221132] (-) TimerEvent: {}
+[39.322152] (-) TimerEvent: {}
+[39.423236] (-) TimerEvent: {}
+[39.524246] (-) TimerEvent: {}
+[39.625240] (-) TimerEvent: {}
+[39.726225] (-) TimerEvent: {}
+[39.827230] (-) TimerEvent: {}
+[39.928243] (-) TimerEvent: {}
+[40.029235] (-) TimerEvent: {}
+[40.130175] (-) TimerEvent: {}
+[40.231142] (-) TimerEvent: {}
+[40.332118] (-) TimerEvent: {}
+[40.433129] (-) TimerEvent: {}
+[40.534103] (-) TimerEvent: {}
+[40.635214] (-) TimerEvent: {}
+[40.736306] (-) TimerEvent: {}
+[40.837375] (-) TimerEvent: {}
+[40.938342] (-) TimerEvent: {}
+[41.039323] (-) TimerEvent: {}
+[41.140279] (-) TimerEvent: {}
+[41.241245] (-) TimerEvent: {}
+[41.342301] (-) TimerEvent: {}
+[41.443270] (-) TimerEvent: {}
+[41.544238] (-) TimerEvent: {}
+[41.645190] (-) TimerEvent: {}
+[41.746209] (-) TimerEvent: {}
+[41.847212] (-) TimerEvent: {}
+[41.948184] (-) TimerEvent: {}
+[42.049154] (-) TimerEvent: {}
+[42.150086] (-) TimerEvent: {}
+[42.251078] (-) TimerEvent: {}
+[42.352071] (-) TimerEvent: {}
+[42.453182] (-) TimerEvent: {}
+[42.554174] (-) TimerEvent: {}
+[42.655172] (-) TimerEvent: {}
+[42.756254] (-) TimerEvent: {}
+[42.857272] (-) TimerEvent: {}
+[42.958289] (-) TimerEvent: {}
+[43.059291] (-) TimerEvent: {}
+[43.160299] (-) TimerEvent: {}
+[43.261299] (-) TimerEvent: {}
+[43.362301] (-) TimerEvent: {}
+[43.463312] (-) TimerEvent: {}
+[43.632462] (-) TimerEvent: {}
+[43.645013] (lpms_ig1) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable lpms_si1_node\x1b[0m\n'}
+[43.732700] (-) TimerEvent: {}
+[43.833712] (-) TimerEvent: {}
+[43.934693] (-) TimerEvent: {}
+[44.035697] (-) TimerEvent: {}
+[44.136836] (-) TimerEvent: {}
+[44.237878] (-) TimerEvent: {}
+[44.338935] (-) TimerEvent: {}
+[44.439989] (-) TimerEvent: {}
+[44.541050] (-) TimerEvent: {}
+[44.642051] (-) TimerEvent: {}
+[44.743169] (-) TimerEvent: {}
+[44.844359] (-) TimerEvent: {}
+[44.945466] (-) TimerEvent: {}
+[45.046550] (-) TimerEvent: {}
+[45.147641] (-) TimerEvent: {}
+[45.248759] (-) TimerEvent: {}
+[45.349812] (-) TimerEvent: {}
+[45.450880] (-) TimerEvent: {}
+[45.551950] (-) TimerEvent: {}
+[45.653034] (-) TimerEvent: {}
+[45.754008] (-) TimerEvent: {}
+[45.855003] (-) TimerEvent: {}
+[45.956002] (-) TimerEvent: {}
+[46.057006] (-) TimerEvent: {}
+[46.157929] (-) TimerEvent: {}
+[46.268315] (-) TimerEvent: {}
+[46.274408] (lpms_ig1) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[46.310037] (lpms_ig1) StdoutLine: {'line': b'[ 66%] Built target lpms_si1_node\n'}
+[46.368543] (-) TimerEvent: {}
+[46.469485] (-) TimerEvent: {}
+[46.570444] (-) TimerEvent: {}
+[46.671398] (-) TimerEvent: {}
+[46.772378] (-) TimerEvent: {}
+[46.873347] (-) TimerEvent: {}
+[46.974309] (-) TimerEvent: {}
+[47.075248] (-) TimerEvent: {}
+[47.176203] (-) TimerEvent: {}
+[47.277228] (-) TimerEvent: {}
+[47.378275] (-) TimerEvent: {}
+[47.479321] (-) TimerEvent: {}
+[47.580340] (-) TimerEvent: {}
+[47.681360] (-) TimerEvent: {}
+[47.782461] (-) TimerEvent: {}
+[47.883535] (-) TimerEvent: {}
+[47.984608] (-) TimerEvent: {}
+[48.085648] (-) TimerEvent: {}
+[48.186694] (-) TimerEvent: {}
+[48.287740] (-) TimerEvent: {}
+[48.388776] (-) TimerEvent: {}
+[48.489831] (-) TimerEvent: {}
+[48.590890] (-) TimerEvent: {}
+[48.691911] (-) TimerEvent: {}
+[48.792941] (-) TimerEvent: {}
+[48.893984] (-) TimerEvent: {}
+[48.994996] (-) TimerEvent: {}
+[49.096022] (-) TimerEvent: {}
+[49.197045] (-) TimerEvent: {}
+[49.298045] (-) TimerEvent: {}
+[49.399082] (-) TimerEvent: {}
+[49.500127] (-) TimerEvent: {}
+[49.601172] (-) TimerEvent: {}
+[49.702292] (-) TimerEvent: {}
+[49.803348] (-) TimerEvent: {}
+[49.904388] (-) TimerEvent: {}
+[50.005448] (-) TimerEvent: {}
+[50.106389] (-) TimerEvent: {}
+[50.207315] (-) TimerEvent: {}
+[50.308222] (-) TimerEvent: {}
+[50.409091] (-) TimerEvent: {}
+[50.509977] (-) TimerEvent: {}
+[50.610922] (-) TimerEvent: {}
+[50.711924] (-) TimerEvent: {}
+[50.812931] (-) TimerEvent: {}
+[50.913878] (-) TimerEvent: {}
+[51.014858] (-) TimerEvent: {}
+[51.115839] (-) TimerEvent: {}
+[51.216827] (-) TimerEvent: {}
+[51.415372] (-) TimerEvent: {}
+[51.516408] (-) TimerEvent: {}
+[51.617357] (-) TimerEvent: {}
+[51.718347] (-) TimerEvent: {}
+[51.819239] (-) TimerEvent: {}
+[51.920159] (-) TimerEvent: {}
+[52.021227] (-) TimerEvent: {}
+[52.123020] (-) TimerEvent: {}
+[52.223876] (-) TimerEvent: {}
+[52.324776] (-) TimerEvent: {}
+[52.425771] (-) TimerEvent: {}
+[52.526780] (-) TimerEvent: {}
+[52.627763] (-) TimerEvent: {}
+[52.728746] (-) TimerEvent: {}
+[52.829716] (-) TimerEvent: {}
+[52.930724] (-) TimerEvent: {}
+[53.031724] (-) TimerEvent: {}
+[53.132773] (-) TimerEvent: {}
+[53.233753] (-) TimerEvent: {}
+[53.334747] (-) TimerEvent: {}
+[53.435741] (-) TimerEvent: {}
+[53.536721] (-) TimerEvent: {}
+[53.637714] (-) TimerEvent: {}
+[53.738699] (-) TimerEvent: {}
+[53.839679] (-) TimerEvent: {}
+[53.940664] (-) TimerEvent: {}
+[54.041637] (-) TimerEvent: {}
+[54.142639] (-) TimerEvent: {}
+[54.243628] (-) TimerEvent: {}
+[54.344612] (-) TimerEvent: {}
+[54.445601] (-) TimerEvent: {}
+[54.546581] (-) TimerEvent: {}
+[54.647545] (-) TimerEvent: {}
+[54.748522] (-) TimerEvent: {}
+[54.849502] (-) TimerEvent: {}
+[54.950495] (-) TimerEvent: {}
+[55.051474] (-) TimerEvent: {}
+[55.152488] (-) TimerEvent: {}
+[55.253473] (-) TimerEvent: {}
+[55.354511] (-) TimerEvent: {}
+[55.455555] (-) TimerEvent: {}
+[55.556553] (-) TimerEvent: {}
+[55.657552] (-) TimerEvent: {}
+[55.758542] (-) TimerEvent: {}
+[55.859568] (-) TimerEvent: {}
+[55.960609] (-) TimerEvent: {}
+[56.061739] (-) TimerEvent: {}
+[56.162822] (-) TimerEvent: {}
+[56.263866] (-) TimerEvent: {}
+[56.364881] (-) TimerEvent: {}
+[56.465834] (-) TimerEvent: {}
+[56.566880] (-) TimerEvent: {}
+[56.618982] (lpms_ig1) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable imudata_rad_to_deg_node\x1b[0m\n'}
+[56.667054] (-) TimerEvent: {}
+[56.768031] (-) TimerEvent: {}
+[56.869038] (-) TimerEvent: {}
+[56.970038] (-) TimerEvent: {}
+[57.070999] (-) TimerEvent: {}
+[57.172042] (-) TimerEvent: {}
+[57.192264] (lpms_ig1) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable quat_to_euler_node\x1b[0m\n'}
+[57.272311] (-) TimerEvent: {}
+[57.373349] (-) TimerEvent: {}
+[57.474409] (-) TimerEvent: {}
+[57.575460] (-) TimerEvent: {}
+[57.676601] (-) TimerEvent: {}
+[57.777731] (-) TimerEvent: {}
+[57.878903] (-) TimerEvent: {}
+[57.980060] (-) TimerEvent: {}
+[58.081251] (-) TimerEvent: {}
+[58.182310] (-) TimerEvent: {}
+[58.283356] (-) TimerEvent: {}
+[58.384441] (-) TimerEvent: {}
+[58.485624] (-) TimerEvent: {}
+[58.586662] (-) TimerEvent: {}
+[58.687751] (-) TimerEvent: {}
+[58.788807] (-) TimerEvent: {}
+[58.889803] (-) TimerEvent: {}
+[58.990757] (-) TimerEvent: {}
+[59.091781] (-) TimerEvent: {}
+[59.192774] (-) TimerEvent: {}
+[59.293737] (-) TimerEvent: {}
+[59.394812] (-) TimerEvent: {}
+[59.495837] (-) TimerEvent: {}
+[59.596923] (-) TimerEvent: {}
+[59.697945] (-) TimerEvent: {}
+[59.798949] (-) TimerEvent: {}
+[59.899888] (-) TimerEvent: {}
+[60.000904] (-) TimerEvent: {}
+[60.004886] (lpms_ig1) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[60.037899] (lpms_ig1) StdoutLine: {'line': b'[100%] Built target imudata_rad_to_deg_node\n'}
+[60.101132] (-) TimerEvent: {}
+[60.202105] (-) TimerEvent: {}
+[60.303051] (-) TimerEvent: {}
+[60.403982] (-) TimerEvent: {}
+[60.504948] (-) TimerEvent: {}
+[60.557792] (lpms_ig1) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[60.593793] (lpms_ig1) StdoutLine: {'line': b'[100%] Built target quat_to_euler_node\n'}
+[60.605156] (-) TimerEvent: {}
+[60.692960] (lpms_ig1) CommandEnded: {'returncode': 0}
+[60.705173] (lpms_ig1) JobProgress: {'identifier': 'lpms_ig1', 'progress': 'install'}
+[60.705573] (-) TimerEvent: {}
+[60.765670] (lpms_ig1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1'], 'cwd': '/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '10.16.2.95 58219 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu'), ('TERM_PROGRAM_VERSION', '1.126.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-94f6b36e-3d46-4d29-b45f-5a7c1cda0cb8.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunrise/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/sunrise/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/sunrise/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/remote-cli:/home/sunrise/.local/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.local/bin:/home/sunrise/.local/bin:/home/sunrise/.local/bin:/home/sunrise/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-743c0150e2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1'), ('COPILOT_DEBUG_NONCE', '1f7c253e609d383c86ee4119bbefbe77'), ('SSH_CONNECTION', '10.16.2.95 58219 10.16.3.181 22'), ('PYTHONPATH', '/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble')]), 'shell': False}
+[60.805780] (-) TimerEvent: {}
+[60.820489] (lpms_ig1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[60.829847] (lpms_ig1) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/lib/lpms_ig1/lpms_si1_node\n'}
+[60.849987] (lpms_ig1) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/lib/lpms_ig1/lpms_si1_node" to ""\n'}
+[60.853434] (lpms_ig1) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/lib/lpms_ig1/quat_to_euler_node\n'}
+[60.884792] (lpms_ig1) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/lib/lpms_ig1/quat_to_euler_node" to ""\n'}
+[60.886983] (lpms_ig1) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/lib/lpms_ig1/imudata_rad_to_deg_node\n'}
+[60.905927] (-) TimerEvent: {}
+[60.914744] (lpms_ig1) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/lib/lpms_ig1/imudata_rad_to_deg_node" to ""\n'}
+[60.915913] (lpms_ig1) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1//launch\n'}
+[60.916888] (lpms_ig1) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1//launch/lpms_si1_launch.py\n'}
+[60.917441] (lpms_ig1) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1//launch/__pycache__\n'}
+[60.917975] (lpms_ig1) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1//launch/__pycache__/lpms_si1_launch.cpython-310.pyc\n'}
+[60.919703] (lpms_ig1) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/ament_index/resource_index/package_run_dependencies/lpms_ig1\n'}
+[60.920348] (lpms_ig1) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/ament_index/resource_index/parent_prefix_path/lpms_ig1\n'}
+[60.930895] (lpms_ig1) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/environment/ament_prefix_path.sh\n'}
+[60.931587] (lpms_ig1) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/environment/ament_prefix_path.dsv\n'}
+[60.932568] (lpms_ig1) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/environment/path.sh\n'}
+[60.933169] (lpms_ig1) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/environment/path.dsv\n'}
+[60.933941] (lpms_ig1) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/local_setup.bash\n'}
+[60.934747] (lpms_ig1) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/local_setup.sh\n'}
+[60.935295] (lpms_ig1) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/local_setup.zsh\n'}
+[60.935842] (lpms_ig1) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/local_setup.dsv\n'}
+[60.936456] (lpms_ig1) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/package.dsv\n'}
+[60.938343] (lpms_ig1) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/ament_index/resource_index/packages/lpms_ig1\n'}
+[60.939034] (lpms_ig1) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/cmake/lpms_ig1Config.cmake\n'}
+[60.939625] (lpms_ig1) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/cmake/lpms_ig1Config-version.cmake\n'}
+[60.940101] (lpms_ig1) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/package.xml\n'}
+[60.947066] (lpms_ig1) CommandEnded: {'returncode': 0}
+[61.006061] (-) TimerEvent: {}
+[61.107902] (-) TimerEvent: {}
+[61.116707] (lpms_ig1) JobEnded: {'identifier': 'lpms_ig1', 'rc': 0}
+[61.120524] (-) EventReactorShutdown: {}

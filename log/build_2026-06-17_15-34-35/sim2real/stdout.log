@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/sim2real/sim2real.egg-info
+writing ../../build/sim2real/sim2real.egg-info/PKG-INFO
+writing dependency_links to ../../build/sim2real/sim2real.egg-info/dependency_links.txt
+writing entry points to ../../build/sim2real/sim2real.egg-info/entry_points.txt
+writing requirements to ../../build/sim2real/sim2real.egg-info/requires.txt
+writing top-level names to ../../build/sim2real/sim2real.egg-info/top_level.txt
+writing manifest file '../../build/sim2real/sim2real.egg-info/SOURCES.txt'
+reading manifest file '../../build/sim2real/sim2real.egg-info/SOURCES.txt'
+writing manifest file '../../build/sim2real/sim2real.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sunrise/Desktop/ros2_simreal_ws/build/sim2real/build/lib/sim2real
+copying sim2real/test_onnx.py -> /home/sunrise/Desktop/ros2_simreal_ws/build/sim2real/build/lib/sim2real
+copying sim2real/__init__.py -> /home/sunrise/Desktop/ros2_simreal_ws/build/sim2real/build/lib/sim2real
+copying sim2real/inference.py -> /home/sunrise/Desktop/ros2_simreal_ws/build/sim2real/build/lib/sim2real
+running install
+running install_lib
+creating /home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/python3.10/site-packages/sim2real
+copying /home/sunrise/Desktop/ros2_simreal_ws/build/sim2real/build/lib/sim2real/test_onnx.py -> /home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/python3.10/site-packages/sim2real
+copying /home/sunrise/Desktop/ros2_simreal_ws/build/sim2real/build/lib/sim2real/__init__.py -> /home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/python3.10/site-packages/sim2real
+copying /home/sunrise/Desktop/ros2_simreal_ws/build/sim2real/build/lib/sim2real/inference.py -> /home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/python3.10/site-packages/sim2real
+byte-compiling /home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/python3.10/site-packages/sim2real/test_onnx.py to test_onnx.cpython-310.pyc
+byte-compiling /home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/python3.10/site-packages/sim2real/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/python3.10/site-packages/sim2real/inference.py to inference.cpython-310.pyc
+running install_data
+creating /home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/share/ament_index/resource_index/packages
+copying resource/sim2real -> /home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/share/ament_index/resource_index/packages
+copying package.xml -> /home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/share/sim2real
+creating /home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/share/sim2real/config
+creating /home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/share/sim2real/policy
+creating /home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/share/sim2real/launch
+running install_egg_info
+Copying ../../build/sim2real/sim2real.egg-info to /home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/python3.10/site-packages/sim2real-0.0.1-py3.10.egg-info
+running install_scripts
+Installing test_onnx script to /home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/sim2real
+writing list of installed files to '/home/sunrise/Desktop/ros2_simreal_ws/build/sim2real/install.log'

@@ -1,0 +1,2 @@
+[console_scripts]
+test_onnx = sim2real.test_onnx:main

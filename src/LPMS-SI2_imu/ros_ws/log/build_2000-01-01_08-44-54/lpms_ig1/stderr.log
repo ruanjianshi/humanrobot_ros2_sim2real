@@ -1,0 +1,32 @@
+gmake[2]: Warning: File 'CMakeFiles/lpms_si1_node.dir/flags.make' has modification time 835687965 s in the future
+gmake[2]: Warning: File 'CMakeFiles/quat_to_euler_node.dir/flags.make' has modification time 835687965 s in the future
+gmake[2]: Warning: File 'CMakeFiles/imudata_rad_to_deg_node.dir/flags.make' has modification time 835687965 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'CMakeFiles/imudata_rad_to_deg_node.dir/flags.make' has modification time 835687965 s in the future
+gmake[2]: Warning: File 'CMakeFiles/quat_to_euler_node.dir/flags.make' has modification time 835687965 s in the future
+gmake[2]: Warning: File 'CMakeFiles/lpms_si1_node.dir/flags.make' has modification time 835687965 s in the future
+[01m[K/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example/src/lpms_si1_node.cpp:[m[K In member function ‘[01m[Kbool LpSI1Proxy::resetHeading(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example/src/lpms_si1_node.cpp:277:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  277 |         [01;35m[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> req[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example/src/lpms_si1_node.cpp:[m[K In member function ‘[01m[Kbool LpSI1Proxy::calibrateGyroscope(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example/src/lpms_si1_node.cpp:292:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  292 |         [01;35m[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> req[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example/src/lpms_si1_node.cpp:[m[K In member function ‘[01m[Kbool LpSI1Proxy::getImuData(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example/src/lpms_si1_node.cpp:307:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  307 |         [01;35m[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> req[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example/src/lpms_si1_node.cpp:[m[K In member function ‘[01m[Kbool LpSI1Proxy::setStreamingMode(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example/src/lpms_si1_node.cpp:319:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  319 |         [01;35m[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> req[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example/src/lpms_si1_node.cpp:[m[K In member function ‘[01m[Kbool LpSI1Proxy::setCommandMode(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example/src/lpms_si1_node.cpp:329:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  329 |         [01;35m[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> req[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.

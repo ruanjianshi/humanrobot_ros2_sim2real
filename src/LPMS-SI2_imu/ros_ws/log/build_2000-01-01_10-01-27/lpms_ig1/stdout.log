@@ -1,0 +1,67 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found tf2: 0.25.15 (/opt/ros/humble/share/tf2/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1
+[35m[1mConsolidate compiler generated dependencies of target imudata_rad_to_deg_node[0m
+[35m[1mConsolidate compiler generated dependencies of target quat_to_euler_node[0m
+[35m[1mConsolidate compiler generated dependencies of target lpms_si1_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/quat_to_euler_node.dir/src/quat_to_euler_node.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/imudata_rad_to_deg_node.dir/src/imudata_rad_to_deg_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/lpms_si1_node.dir/src/lpms_si1_node.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable lpms_si1_node[0m
+[ 66%] Built target lpms_si1_node
+[ 83%] [32m[1mLinking CXX executable imudata_rad_to_deg_node[0m
+[100%] [32m[1mLinking CXX executable quat_to_euler_node[0m
+[100%] Built target imudata_rad_to_deg_node
+[100%] Built target quat_to_euler_node
+-- Install configuration: ""
+-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/lib/lpms_ig1/lpms_si1_node
+-- Set runtime path of "/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/lib/lpms_ig1/lpms_si1_node" to ""
+-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/lib/lpms_ig1/quat_to_euler_node
+-- Set runtime path of "/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/lib/lpms_ig1/quat_to_euler_node" to ""
+-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/lib/lpms_ig1/imudata_rad_to_deg_node
+-- Set runtime path of "/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/lib/lpms_ig1/imudata_rad_to_deg_node" to ""
+-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1//launch
+-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1//launch/lpms_si1_launch.py
+-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1//launch/__pycache__
+-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1//launch/__pycache__/lpms_si1_launch.cpython-310.pyc
+-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/ament_index/resource_index/package_run_dependencies/lpms_ig1
+-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/ament_index/resource_index/parent_prefix_path/lpms_ig1
+-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/environment/ament_prefix_path.sh
+-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/environment/path.sh
+-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/environment/path.dsv
+-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/local_setup.bash
+-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/local_setup.sh
+-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/local_setup.zsh
+-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/local_setup.dsv
+-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/package.dsv
+-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/ament_index/resource_index/packages/lpms_ig1
+-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/cmake/lpms_ig1Config.cmake
+-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/cmake/lpms_ig1Config-version.cmake
+-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/package.xml

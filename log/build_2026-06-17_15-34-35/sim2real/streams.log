@@ -1,0 +1,39 @@
+[3.654s] Invoking command in '/home/sunrise/Desktop/ros2_simreal_ws/src/sim2real': PYTHONPATH=/home/sunrise/Desktop/ros2_simreal_ws/build/sim2real/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sim2real build --build-base /home/sunrise/Desktop/ros2_simreal_ws/build/sim2real/build install --record /home/sunrise/Desktop/ros2_simreal_ws/build/sim2real/install.log --single-version-externally-managed install_data
+[5.112s] running egg_info
+[5.190s] creating ../../build/sim2real/sim2real.egg-info
+[5.191s] writing ../../build/sim2real/sim2real.egg-info/PKG-INFO
+[5.193s] writing dependency_links to ../../build/sim2real/sim2real.egg-info/dependency_links.txt
+[5.195s] writing entry points to ../../build/sim2real/sim2real.egg-info/entry_points.txt
+[5.196s] writing requirements to ../../build/sim2real/sim2real.egg-info/requires.txt
+[5.196s] writing top-level names to ../../build/sim2real/sim2real.egg-info/top_level.txt
+[5.197s] writing manifest file '../../build/sim2real/sim2real.egg-info/SOURCES.txt'
+[5.364s] reading manifest file '../../build/sim2real/sim2real.egg-info/SOURCES.txt'
+[5.371s] writing manifest file '../../build/sim2real/sim2real.egg-info/SOURCES.txt'
+[5.372s] running build
+[5.373s] running build_py
+[5.374s] creating /home/sunrise/Desktop/ros2_simreal_ws/build/sim2real/build/lib/sim2real
+[5.375s] copying sim2real/test_onnx.py -> /home/sunrise/Desktop/ros2_simreal_ws/build/sim2real/build/lib/sim2real
+[5.376s] copying sim2real/__init__.py -> /home/sunrise/Desktop/ros2_simreal_ws/build/sim2real/build/lib/sim2real
+[5.377s] copying sim2real/inference.py -> /home/sunrise/Desktop/ros2_simreal_ws/build/sim2real/build/lib/sim2real
+[5.379s] running install
+[5.410s] running install_lib
+[5.489s] creating /home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/python3.10/site-packages/sim2real
+[5.490s] copying /home/sunrise/Desktop/ros2_simreal_ws/build/sim2real/build/lib/sim2real/test_onnx.py -> /home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/python3.10/site-packages/sim2real
+[5.490s] copying /home/sunrise/Desktop/ros2_simreal_ws/build/sim2real/build/lib/sim2real/__init__.py -> /home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/python3.10/site-packages/sim2real
+[5.491s] copying /home/sunrise/Desktop/ros2_simreal_ws/build/sim2real/build/lib/sim2real/inference.py -> /home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/python3.10/site-packages/sim2real
+[5.494s] byte-compiling /home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/python3.10/site-packages/sim2real/test_onnx.py to test_onnx.cpython-310.pyc
+[5.497s] byte-compiling /home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/python3.10/site-packages/sim2real/__init__.py to __init__.cpython-310.pyc
+[5.498s] byte-compiling /home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/python3.10/site-packages/sim2real/inference.py to inference.cpython-310.pyc
+[5.501s] running install_data
+[5.503s] creating /home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/share/ament_index/resource_index/packages
+[5.504s] copying resource/sim2real -> /home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/share/ament_index/resource_index/packages
+[5.505s] copying package.xml -> /home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/share/sim2real
+[5.507s] creating /home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/share/sim2real/config
+[5.508s] creating /home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/share/sim2real/policy
+[5.509s] creating /home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/share/sim2real/launch
+[5.509s] running install_egg_info
+[5.594s] Copying ../../build/sim2real/sim2real.egg-info to /home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/python3.10/site-packages/sim2real-0.0.1-py3.10.egg-info
+[5.600s] running install_scripts
+[5.766s] Installing test_onnx script to /home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/sim2real
+[5.769s] writing list of installed files to '/home/sunrise/Desktop/ros2_simreal_ws/build/sim2real/install.log'
+[5.964s] Invoked command in '/home/sunrise/Desktop/ros2_simreal_ws/src/sim2real' returned '0': PYTHONPATH=/home/sunrise/Desktop/ros2_simreal_ws/build/sim2real/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sim2real build --build-base /home/sunrise/Desktop/ros2_simreal_ws/build/sim2real/build install --record /home/sunrise/Desktop/ros2_simreal_ws/build/sim2real/install.log --single-version-externally-managed install_data

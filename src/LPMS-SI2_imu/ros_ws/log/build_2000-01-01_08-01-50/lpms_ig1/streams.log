@@ -1,0 +1,35 @@
+[0.054s] Invoking command in '/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1': CMAKE_PREFIX_PATH=/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1 -- -j8 -l8
+[0.184s] gmake: Warning: File 'Makefile' has modification time 835690552 s in the future
+[0.369s] gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 835690552 s in the future
+[0.381s] gmake[2]: Warning: File 'CMakeFiles/lpms_ig1_node.dir/flags.make' has modification time 835690552 s in the future
+[0.383s] gmake[2]: Warning: File 'CMakeFiles/lpms_be1_node.dir/flags.make' has modification time 835690552 s in the future
+[0.384s] gmake[2]: Warning: File 'CMakeFiles/lpms_nav3_node.dir/flags.make' has modification time 835690552 s in the future
+[0.385s] gmake[2]: Warning: File 'CMakeFiles/lpms_ig1_rs485_client.dir/flags.make' has modification time 835690552 s in the future
+[0.386s] gmake[2]: Warning: File 'CMakeFiles/lpms_ig1_rs485_node.dir/flags.make' has modification time 835690552 s in the future
+[0.387s] gmake[2]: Warning: File 'CMakeFiles/quat_to_euler_node.dir/flags.make' has modification time 835690552 s in the future
+[0.388s] gmake[2]: Warning: File 'CMakeFiles/lpms_si1_node.dir/flags.make' has modification time 835690552 s in the future
+[0.389s] gmake[2]: Warning: File 'CMakeFiles/imudata_rad_to_deg_node.dir/flags.make' has modification time 835690552 s in the future
+[0.423s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.424s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.425s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.425s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.427s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.430s] gmake[2]: Warning: File 'CMakeFiles/lpms_ig1_node.dir/flags.make' has modification time 835690552 s in the future
+[0.431s] gmake[2]: Warning: File 'CMakeFiles/lpms_be1_node.dir/flags.make' has modification time 835690552 s in the future
+[0.432s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.433s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.435s] gmake[2]: Warning: File 'CMakeFiles/lpms_nav3_node.dir/flags.make' has modification time 835690552 s in the future
+[0.436s] gmake[2]: Warning: File 'CMakeFiles/lpms_ig1_rs485_node.dir/flags.make' has modification time 835690552 s in the future
+[0.437s] gmake[2]: Warning: File 'CMakeFiles/lpms_ig1_rs485_client.dir/flags.make' has modification time 835690552 s in the future
+[0.444s] gmake[2]: Warning: File 'CMakeFiles/imudata_rad_to_deg_node.dir/flags.make' has modification time 835690552 s in the future
+[0.445s] gmake[2]: Warning: File 'CMakeFiles/lpms_si1_node.dir/flags.make' has modification time 835690552 s in the future
+[0.451s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[0.458s] gmake[2]: Warning: File 'CMakeFiles/quat_to_euler_node.dir/flags.make' has modification time 835690552 s in the future
+[0.468s] [ 12%] [32mBuilding CXX object CMakeFiles/lpms_ig1_node.dir/src/lpms_ig1_node.cpp.o[0m
+[0.468s] [ 12%] [32mBuilding CXX object CMakeFiles/lpms_be1_node.dir/src/lpms_be1_node.cpp.o[0m
+[0.470s] [ 31%] [32mBuilding CXX object CMakeFiles/lpms_ig1_rs485_client.dir/src/lpms_ig1_rs485_client.cpp.o[0m
+[0.472s] [ 31%] [32mBuilding CXX object CMakeFiles/lpms_nav3_node.dir/src/lpms_nav3_node.cpp.o[0m
+[0.472s] [ 31%] [32mBuilding CXX object CMakeFiles/lpms_ig1_rs485_node.dir/src/lpms_ig1_rs485_node.cpp.o[0m
+[0.484s] [ 37%] [32mBuilding CXX object CMakeFiles/imudata_rad_to_deg_node.dir/src/imudata_rad_to_deg_node.cpp.o[0m
+[0.498s] [ 50%] [32mBuilding CXX object CMakeFiles/quat_to_euler_node.dir/src/quat_to_euler_node.cpp.o[0m
+[0.499s] [ 50%] [32mBuilding CXX object CMakeFiles/lpms_si1_node.dir/src/lpms_si1_node.cpp.o[0m

@@ -1,0 +1,8 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/lpms_ig1_node.dir/src/lpms_ig1_node.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/lpms_be1_node.dir/src/lpms_be1_node.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/lpms_ig1_rs485_client.dir/src/lpms_ig1_rs485_client.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/lpms_nav3_node.dir/src/lpms_nav3_node.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/lpms_ig1_rs485_node.dir/src/lpms_ig1_rs485_node.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/imudata_rad_to_deg_node.dir/src/imudata_rad_to_deg_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/quat_to_euler_node.dir/src/quat_to_euler_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/lpms_si1_node.dir/src/lpms_si1_node.cpp.o[0m

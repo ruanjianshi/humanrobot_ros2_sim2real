@@ -1,0 +1,186 @@
+[0.000000] (-) TimerEvent: {}
+[0.001501] (lpms_ig1) JobQueued: {'identifier': 'lpms_ig1', 'dependencies': OrderedDict()}
+[0.003000] (lpms_ig1) JobStarted: {'identifier': 'lpms_ig1'}
+[0.068197] (lpms_ig1) JobProgress: {'identifier': 'lpms_ig1', 'progress': 'cmake'}
+[0.098705] (-) TimerEvent: {}
+[0.125096] (lpms_ig1) JobProgress: {'identifier': 'lpms_ig1', 'progress': 'build'}
+[0.129859] (lpms_ig1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1565'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('HOME', '/home/sunrise'), ('DESKTOP_SESSION', 'xfce'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sunrise'), ('WINDOWID', '52428803'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sunrise/.local/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.local/bin:/home/sunrise/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1215,unix/ubuntu:/tmp/.ICE-unix/1215'), ('GDM_LANG', 'en'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/sunrise/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX3O6SYX/agent.1560'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/sunrise'), ('AMENT_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'xfce'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share'), ('PYTHONPATH', '/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble')]), 'shell': False}
+[0.198914] (-) TimerEvent: {}
+[0.264742] (lpms_ig1) StderrLine: {'line': b"gmake: Warning: File 'Makefile' has modification time 835690604 s in the future\n"}
+[0.299137] (-) TimerEvent: {}
+[0.399941] (-) TimerEvent: {}
+[0.445238] (lpms_ig1) StderrLine: {'line': b"gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 835690604 s in the future\n"}
+[0.459596] (lpms_ig1) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/lpms_ig1_node.dir/flags.make' has modification time 835690604 s in the future\n"}
+[0.461135] (lpms_ig1) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/lpms_be1_node.dir/flags.make' has modification time 835690604 s in the future\n"}
+[0.462337] (lpms_ig1) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/lpms_ig1_rs485_client.dir/flags.make' has modification time 835690604 s in the future\n"}
+[0.463309] (lpms_ig1) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/lpms_ig1_rs485_node.dir/flags.make' has modification time 835690604 s in the future\n"}
+[0.464119] (lpms_ig1) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/lpms_si1_node.dir/flags.make' has modification time 835690604 s in the future\n"}
+[0.464893] (lpms_ig1) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/lpms_nav3_node.dir/flags.make' has modification time 835690604 s in the future\n"}
+[0.465633] (lpms_ig1) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/imudata_rad_to_deg_node.dir/flags.make' has modification time 835690604 s in the future\n"}
+[0.466691] (lpms_ig1) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/quat_to_euler_node.dir/flags.make' has modification time 835690604 s in the future\n"}
+[0.500278] (-) TimerEvent: {}
+[0.504029] (lpms_ig1) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.505030] (lpms_ig1) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.508443] (lpms_ig1) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.510934] (lpms_ig1) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.511910] (lpms_ig1) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/lpms_nav3_node.dir/flags.make' has modification time 835690604 s in the future\n"}
+[0.513143] (lpms_ig1) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/lpms_si1_node.dir/flags.make' has modification time 835690604 s in the future\n"}
+[0.514288] (lpms_ig1) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.515167] (lpms_ig1) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/lpms_ig1_rs485_node.dir/flags.make' has modification time 835690604 s in the future\n"}
+[0.517421] (lpms_ig1) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.519289] (lpms_ig1) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/imudata_rad_to_deg_node.dir/flags.make' has modification time 835690604 s in the future\n"}
+[0.520508] (lpms_ig1) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/lpms_be1_node.dir/flags.make' has modification time 835690604 s in the future\n"}
+[0.523707] (lpms_ig1) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.526096] (lpms_ig1) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.530548] (lpms_ig1) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/lpms_ig1_node.dir/flags.make' has modification time 835690604 s in the future\n"}
+[0.534963] (lpms_ig1) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/lpms_ig1_rs485_client.dir/flags.make' has modification time 835690604 s in the future\n"}
+[0.537704] (lpms_ig1) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/quat_to_euler_node.dir/flags.make' has modification time 835690604 s in the future\n"}
+[0.550971] (lpms_ig1) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/lpms_ig1_rs485_node.dir/src/lpms_ig1_rs485_node.cpp.o\x1b[0m\n'}
+[0.552192] (lpms_ig1) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/lpms_si1_node.dir/src/lpms_si1_node.cpp.o\x1b[0m\n'}
+[0.556525] (lpms_ig1) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/lpms_nav3_node.dir/src/lpms_nav3_node.cpp.o\x1b[0m\n'}
+[0.561816] (lpms_ig1) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/imudata_rad_to_deg_node.dir/src/imudata_rad_to_deg_node.cpp.o\x1b[0m\n'}
+[0.572893] (lpms_ig1) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/lpms_be1_node.dir/src/lpms_be1_node.cpp.o\x1b[0m\n'}
+[0.574610] (lpms_ig1) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/lpms_ig1_rs485_client.dir/src/lpms_ig1_rs485_client.cpp.o\x1b[0m\n'}
+[0.575631] (lpms_ig1) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/lpms_ig1_node.dir/src/lpms_ig1_node.cpp.o\x1b[0m\n'}
+[0.591254] (lpms_ig1) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/quat_to_euler_node.dir/src/quat_to_euler_node.cpp.o\x1b[0m\n'}
+[0.600446] (-) TimerEvent: {}
+[0.701321] (-) TimerEvent: {}
+[0.802382] (-) TimerEvent: {}
+[0.903303] (-) TimerEvent: {}
+[1.004537] (-) TimerEvent: {}
+[1.105622] (-) TimerEvent: {}
+[1.206970] (-) TimerEvent: {}
+[1.308200] (-) TimerEvent: {}
+[1.409144] (-) TimerEvent: {}
+[1.510025] (-) TimerEvent: {}
+[1.610991] (-) TimerEvent: {}
+[1.711906] (-) TimerEvent: {}
+[1.812922] (-) TimerEvent: {}
+[1.913975] (-) TimerEvent: {}
+[2.014961] (-) TimerEvent: {}
+[2.115946] (-) TimerEvent: {}
+[2.217056] (-) TimerEvent: {}
+[2.318003] (-) TimerEvent: {}
+[2.418979] (-) TimerEvent: {}
+[2.520186] (-) TimerEvent: {}
+[2.621584] (-) TimerEvent: {}
+[2.722861] (-) TimerEvent: {}
+[2.824324] (-) TimerEvent: {}
+[2.925859] (-) TimerEvent: {}
+[3.027454] (-) TimerEvent: {}
+[3.186044] (-) TimerEvent: {}
+[3.296080] (-) TimerEvent: {}
+[3.406008] (-) TimerEvent: {}
+[3.516051] (-) TimerEvent: {}
+[3.625958] (-) TimerEvent: {}
+[3.736019] (-) TimerEvent: {}
+[3.846053] (-) TimerEvent: {}
+[3.956010] (-) TimerEvent: {}
+[4.066019] (-) TimerEvent: {}
+[4.167284] (-) TimerEvent: {}
+[4.268462] (-) TimerEvent: {}
+[4.369622] (-) TimerEvent: {}
+[4.470803] (-) TimerEvent: {}
+[4.571876] (-) TimerEvent: {}
+[4.673005] (-) TimerEvent: {}
+[4.774155] (-) TimerEvent: {}
+[4.875633] (-) TimerEvent: {}
+[4.977118] (-) TimerEvent: {}
+[5.078243] (-) TimerEvent: {}
+[5.179430] (-) TimerEvent: {}
+[5.281437] (-) TimerEvent: {}
+[5.382616] (-) TimerEvent: {}
+[5.483757] (-) TimerEvent: {}
+[5.584816] (-) TimerEvent: {}
+[5.686354] (-) TimerEvent: {}
+[5.787780] (-) TimerEvent: {}
+[5.889258] (-) TimerEvent: {}
+[5.990737] (-) TimerEvent: {}
+[6.092240] (-) TimerEvent: {}
+[6.193798] (-) TimerEvent: {}
+[6.295357] (-) TimerEvent: {}
+[6.396534] (-) TimerEvent: {}
+[6.497608] (-) TimerEvent: {}
+[6.598660] (-) TimerEvent: {}
+[6.700144] (-) TimerEvent: {}
+[6.801844] (-) TimerEvent: {}
+[6.903246] (-) TimerEvent: {}
+[7.004750] (-) TimerEvent: {}
+[7.106254] (-) TimerEvent: {}
+[7.207736] (-) TimerEvent: {}
+[7.309248] (-) TimerEvent: {}
+[7.410731] (-) TimerEvent: {}
+[7.512202] (-) TimerEvent: {}
+[7.613668] (-) TimerEvent: {}
+[7.715237] (-) TimerEvent: {}
+[7.816356] (-) TimerEvent: {}
+[7.926008] (-) TimerEvent: {}
+[8.027223] (-) TimerEvent: {}
+[8.128613] (-) TimerEvent: {}
+[8.230124] (-) TimerEvent: {}
+[8.331419] (-) TimerEvent: {}
+[8.432616] (-) TimerEvent: {}
+[8.533839] (-) TimerEvent: {}
+[8.635004] (-) TimerEvent: {}
+[8.736200] (-) TimerEvent: {}
+[8.837345] (-) TimerEvent: {}
+[8.938518] (-) TimerEvent: {}
+[9.039637] (-) TimerEvent: {}
+[9.140800] (-) TimerEvent: {}
+[9.241915] (-) TimerEvent: {}
+[9.343345] (-) TimerEvent: {}
+[9.444964] (-) TimerEvent: {}
+[9.546480] (-) TimerEvent: {}
+[9.647573] (-) TimerEvent: {}
+[9.748613] (-) TimerEvent: {}
+[9.849630] (-) TimerEvent: {}
+[9.950711] (-) TimerEvent: {}
+[10.051792] (-) TimerEvent: {}
+[10.153256] (-) TimerEvent: {}
+[10.254729] (-) TimerEvent: {}
+[10.355882] (-) TimerEvent: {}
+[10.456913] (-) TimerEvent: {}
+[10.558048] (-) TimerEvent: {}
+[10.659191] (-) TimerEvent: {}
+[10.760419] (-) TimerEvent: {}
+[10.862006] (-) TimerEvent: {}
+[10.963562] (-) TimerEvent: {}
+[11.065260] (-) TimerEvent: {}
+[11.166820] (-) TimerEvent: {}
+[11.268292] (-) TimerEvent: {}
+[11.369853] (-) TimerEvent: {}
+[11.471347] (-) TimerEvent: {}
+[11.573009] (-) TimerEvent: {}
+[11.674436] (-) TimerEvent: {}
+[11.775967] (-) TimerEvent: {}
+[11.877499] (-) TimerEvent: {}
+[11.979244] (-) TimerEvent: {}
+[12.080683] (-) TimerEvent: {}
+[12.182239] (-) TimerEvent: {}
+[12.283787] (-) TimerEvent: {}
+[12.385316] (-) TimerEvent: {}
+[12.486896] (-) TimerEvent: {}
+[12.609492] (-) TimerEvent: {}
+[12.791657] (-) TimerEvent: {}
+[12.892968] (-) TimerEvent: {}
+[12.994253] (-) TimerEvent: {}
+[13.097942] (-) TimerEvent: {}
+[13.203476] (-) TimerEvent: {}
+[13.304729] (-) TimerEvent: {}
+[13.405911] (-) TimerEvent: {}
+[13.507070] (-) TimerEvent: {}
+[13.608418] (-) TimerEvent: {}
+[13.709768] (-) TimerEvent: {}
+[13.810936] (-) TimerEvent: {}
+[13.912130] (-) TimerEvent: {}
+[14.013720] (-) TimerEvent: {}
+[14.115319] (-) TimerEvent: {}
+[14.218898] (-) TimerEvent: {}
+[14.320402] (-) TimerEvent: {}
+[14.426018] (-) TimerEvent: {}
+[14.528310] (-) TimerEvent: {}
+[14.629810] (-) TimerEvent: {}
+[14.731281] (-) TimerEvent: {}
+[14.832745] (-) TimerEvent: {}
+[14.934186] (-) TimerEvent: {}
+[15.404891] (-) TimerEvent: {}

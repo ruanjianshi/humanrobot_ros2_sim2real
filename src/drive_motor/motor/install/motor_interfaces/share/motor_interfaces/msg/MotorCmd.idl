@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from motor_interfaces/msg/MotorCmd.msg
+// generated code does not contain a copyright notice
+
+
+module motor_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "MotorCmd.msg — 电机控制指令 (发布方: sim2real, 订阅方: drive_motor, 频率: 500Hz)" "\n"
+      "" "\n"
+      "数据已经是电机坐标系下的目标值 (sim2real 已做逆变换)。" "\n"
+      "drive_motor 直接转发到电机硬件。")
+    struct MotorCmd {
+      @verbatim (language="comment", text=
+        "N个电机的目标位置 (rad, 电机坐标系)")
+      sequence<float> target_q;
+
+      @verbatim (language="comment", text=
+        "N个电机的目标速度 (rad/s)")
+      sequence<float> target_dq;
+
+      @verbatim (language="comment", text=
+        "N个电机的目标力矩 (N·m)")
+      sequence<float> target_tau;
+
+      @verbatim (language="comment", text=
+        "N个电机的 PD 比例增益")
+      sequence<float> target_kp;
+
+      @verbatim (language="comment", text=
+        "N个电机的 PD 微分增益")
+      sequence<float> target_kd;
+    };
+  };
+};

@@ -1,0 +1,1634 @@
+[0.000000] (-) TimerEvent: {}
+[0.001192] (motor_interfaces) JobQueued: {'identifier': 'motor_interfaces', 'dependencies': OrderedDict()}
+[0.002232] (drive_motor) JobQueued: {'identifier': 'drive_motor', 'dependencies': OrderedDict([('motor_interfaces', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces')])}
+[0.002904] (motor_interfaces) JobStarted: {'identifier': 'motor_interfaces'}
+[0.036282] (motor_interfaces) JobProgress: {'identifier': 'motor_interfaces', 'progress': 'cmake'}
+[0.038510] (motor_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/src/motor_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces'], 'cwd': '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/motor_interfaces', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1602'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/src'), ('DESKTOP_SESSION', 'xfce'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sunrise'), ('WINDOWID', '52428803'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sunrise/.local/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.local/bin:/home/sunrise/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1231,unix/ubuntu:/tmp/.ICE-unix/1231'), ('GDM_LANG', 'en'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/sunrise/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXb3GBER/agent.1596'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/sunrise'), ('AMENT_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'xfce'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/motor_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share'), ('PYTHONPATH', '/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble')]), 'shell': False}
+[0.098985] (-) TimerEvent: {}
+[0.199852] (-) TimerEvent: {}
+[0.300764] (-) TimerEvent: {}
+[0.402097] (-) TimerEvent: {}
+[0.503849] (-) TimerEvent: {}
+[0.604750] (-) TimerEvent: {}
+[0.612181] (motor_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.704935] (-) TimerEvent: {}
+[0.805862] (-) TimerEvent: {}
+[0.907088] (-) TimerEvent: {}
+[1.008195] (-) TimerEvent: {}
+[1.108966] (-) TimerEvent: {}
+[1.209845] (-) TimerEvent: {}
+[1.220517] (motor_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[1.270606] (motor_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.310011] (-) TimerEvent: {}
+[1.410848] (-) TimerEvent: {}
+[1.511714] (-) TimerEvent: {}
+[1.612611] (-) TimerEvent: {}
+[1.663320] (motor_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.712825] (-) TimerEvent: {}
+[1.735471] (motor_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.737649] (motor_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.740058] (motor_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.759484] (motor_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.813058] (-) TimerEvent: {}
+[1.914133] (-) TimerEvent: {}
+[2.015852] (-) TimerEvent: {}
+[2.116725] (-) TimerEvent: {}
+[2.169127] (motor_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.216921] (-) TimerEvent: {}
+[2.244008] (motor_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.245552] (motor_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.248556] (motor_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.263777] (motor_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.317134] (-) TimerEvent: {}
+[2.417959] (-) TimerEvent: {}
+[2.518687] (-) TimerEvent: {}
+[2.619491] (-) TimerEvent: {}
+[2.720489] (-) TimerEvent: {}
+[2.822091] (-) TimerEvent: {}
+[2.922796] (-) TimerEvent: {}
+[3.023501] (-) TimerEvent: {}
+[3.124203] (-) TimerEvent: {}
+[3.224951] (-) TimerEvent: {}
+[3.325739] (-) TimerEvent: {}
+[3.426534] (-) TimerEvent: {}
+[3.527352] (-) TimerEvent: {}
+[3.628193] (-) TimerEvent: {}
+[3.728996] (-) TimerEvent: {}
+[3.829739] (-) TimerEvent: {}
+[3.930460] (-) TimerEvent: {}
+[4.031166] (-) TimerEvent: {}
+[4.131852] (-) TimerEvent: {}
+[4.232536] (-) TimerEvent: {}
+[4.333283] (-) TimerEvent: {}
+[4.434095] (-) TimerEvent: {}
+[4.453379] (motor_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.534288] (-) TimerEvent: {}
+[4.635054] (-) TimerEvent: {}
+[4.735832] (-) TimerEvent: {}
+[4.836661] (-) TimerEvent: {}
+[4.937574] (-) TimerEvent: {}
+[5.016641] (motor_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[5.033004] (motor_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.037677] (-) TimerEvent: {}
+[5.062529] (motor_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.137904] (-) TimerEvent: {}
+[5.238738] (-) TimerEvent: {}
+[5.269736] (motor_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.338940] (-) TimerEvent: {}
+[5.439782] (-) TimerEvent: {}
+[5.540614] (-) TimerEvent: {}
+[5.641482] (-) TimerEvent: {}
+[5.742256] (-) TimerEvent: {}
+[5.843197] (-) TimerEvent: {}
+[5.944421] (-) TimerEvent: {}
+[6.045191] (-) TimerEvent: {}
+[6.146008] (-) TimerEvent: {}
+[6.246819] (-) TimerEvent: {}
+[6.347693] (-) TimerEvent: {}
+[6.448496] (-) TimerEvent: {}
+[6.549323] (-) TimerEvent: {}
+[6.650291] (-) TimerEvent: {}
+[6.751951] (-) TimerEvent: {}
+[6.852745] (-) TimerEvent: {}
+[6.953542] (-) TimerEvent: {}
+[7.054522] (-) TimerEvent: {}
+[7.097901] (motor_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[7.154702] (-) TimerEvent: {}
+[7.255588] (-) TimerEvent: {}
+[7.356420] (-) TimerEvent: {}
+[7.457314] (-) TimerEvent: {}
+[7.558128] (-) TimerEvent: {}
+[7.658978] (-) TimerEvent: {}
+[7.759768] (-) TimerEvent: {}
+[7.860692] (-) TimerEvent: {}
+[7.961802] (-) TimerEvent: {}
+[8.062567] (-) TimerEvent: {}
+[8.163318] (-) TimerEvent: {}
+[8.242881] (motor_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.263514] (-) TimerEvent: {}
+[8.364424] (-) TimerEvent: {}
+[8.465357] (-) TimerEvent: {}
+[8.566421] (-) TimerEvent: {}
+[8.667423] (-) TimerEvent: {}
+[8.768348] (-) TimerEvent: {}
+[8.869176] (-) TimerEvent: {}
+[8.970326] (-) TimerEvent: {}
+[9.072079] (-) TimerEvent: {}
+[9.172911] (-) TimerEvent: {}
+[9.273736] (-) TimerEvent: {}
+[9.374790] (-) TimerEvent: {}
+[9.476591] (-) TimerEvent: {}
+[9.577508] (-) TimerEvent: {}
+[9.678351] (-) TimerEvent: {}
+[9.750122] (motor_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.778593] (-) TimerEvent: {}
+[9.879705] (-) TimerEvent: {}
+[9.920505] (motor_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[9.941237] (motor_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[9.979943] (-) TimerEvent: {}
+[10.080989] (-) TimerEvent: {}
+[10.155450] (motor_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[10.157102] (motor_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[10.158174] (motor_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[10.159120] (motor_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[10.181066] (-) TimerEvent: {}
+[10.281967] (-) TimerEvent: {}
+[10.286676] (motor_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[10.382172] (-) TimerEvent: {}
+[10.483052] (-) TimerEvent: {}
+[10.531730] (motor_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.583269] (-) TimerEvent: {}
+[10.673718] (motor_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[10.683388] (-) TimerEvent: {}
+[10.725991] (motor_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/motor_interfaces\n'}
+[10.763825] (motor_interfaces) CommandEnded: {'returncode': 0}
+[10.771162] (motor_interfaces) JobProgress: {'identifier': 'motor_interfaces', 'progress': 'build'}
+[10.780629] (motor_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/motor_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/motor_interfaces', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1602'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/src'), ('DESKTOP_SESSION', 'xfce'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sunrise'), ('WINDOWID', '52428803'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sunrise/.local/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.local/bin:/home/sunrise/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1231,unix/ubuntu:/tmp/.ICE-unix/1231'), ('GDM_LANG', 'en'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/sunrise/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXb3GBER/agent.1596'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/sunrise'), ('AMENT_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'xfce'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/motor_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share'), ('PYTHONPATH', '/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble')]), 'shell': False}
+[10.791953] (-) TimerEvent: {}
+[10.892726] (-) TimerEvent: {}
+[10.897831] (motor_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[10.992892] (-) TimerEvent: {}
+[11.093739] (-) TimerEvent: {}
+[11.194706] (-) TimerEvent: {}
+[11.295551] (-) TimerEvent: {}
+[11.396364] (-) TimerEvent: {}
+[11.497214] (-) TimerEvent: {}
+[11.598151] (-) TimerEvent: {}
+[11.666040] (motor_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[11.676031] (motor_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.694433] (motor_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[11.698213] (-) TimerEvent: {}
+[11.798887] (-) TimerEvent: {}
+[11.837223] (motor_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.899078] (-) TimerEvent: {}
+[11.999916] (-) TimerEvent: {}
+[12.100730] (-) TimerEvent: {}
+[12.201492] (-) TimerEvent: {}
+[12.302326] (-) TimerEvent: {}
+[12.403181] (-) TimerEvent: {}
+[12.503976] (-) TimerEvent: {}
+[12.604757] (-) TimerEvent: {}
+[12.705531] (-) TimerEvent: {}
+[12.806336] (-) TimerEvent: {}
+[12.907082] (-) TimerEvent: {}
+[13.007803] (-) TimerEvent: {}
+[13.108716] (-) TimerEvent: {}
+[13.210318] (-) TimerEvent: {}
+[13.311070] (-) TimerEvent: {}
+[13.411826] (-) TimerEvent: {}
+[13.508782] (motor_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[13.512023] (-) TimerEvent: {}
+[13.613049] (-) TimerEvent: {}
+[13.713924] (-) TimerEvent: {}
+[13.814862] (-) TimerEvent: {}
+[13.915840] (-) TimerEvent: {}
+[14.017090] (-) TimerEvent: {}
+[14.118059] (-) TimerEvent: {}
+[14.219323] (-) TimerEvent: {}
+[14.320321] (-) TimerEvent: {}
+[14.421252] (-) TimerEvent: {}
+[14.522098] (-) TimerEvent: {}
+[14.623100] (-) TimerEvent: {}
+[14.627209] (motor_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[14.723296] (-) TimerEvent: {}
+[14.824142] (-) TimerEvent: {}
+[14.925022] (-) TimerEvent: {}
+[15.025945] (-) TimerEvent: {}
+[15.127118] (-) TimerEvent: {}
+[15.228006] (-) TimerEvent: {}
+[15.328972] (-) TimerEvent: {}
+[15.429917] (-) TimerEvent: {}
+[15.531138] (-) TimerEvent: {}
+[15.632059] (-) TimerEvent: {}
+[15.733260] (-) TimerEvent: {}
+[15.834131] (-) TimerEvent: {}
+[15.935136] (-) TimerEvent: {}
+[16.036143] (-) TimerEvent: {}
+[16.137165] (-) TimerEvent: {}
+[16.163637] (motor_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[16.237355] (-) TimerEvent: {}
+[16.313012] (motor_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[16.337591] (-) TimerEvent: {}
+[16.438725] (-) TimerEvent: {}
+[16.461839] (motor_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[16.462693] (motor_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[16.463261] (motor_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[16.538870] (-) TimerEvent: {}
+[16.543591] (motor_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.639078] (-) TimerEvent: {}
+[16.682256] (motor_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[16.734433] (motor_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/motor_interfaces\n'}
+[16.739196] (-) TimerEvent: {}
+[16.824710] (motor_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File '/opt/ros/humble/lib/rosidl_generator_c/rosidl_generator_c' has modification time 806007045 s in the future\n"}
+[16.839424] (-) TimerEvent: {}
+[16.856017] (motor_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[16.865237] (motor_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File '/opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp' has modification time 806007052 s in the future\n"}
+[16.899367] (motor_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[16.933551] (motor_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_motor_interfaces\n'}
+[16.939627] (-) TimerEvent: {}
+[17.040515] (-) TimerEvent: {}
+[17.141358] (-) TimerEvent: {}
+[17.242226] (-) TimerEvent: {}
+[17.343087] (-) TimerEvent: {}
+[17.443948] (-) TimerEvent: {}
+[17.544807] (-) TimerEvent: {}
+[17.645655] (-) TimerEvent: {}
+[17.746501] (-) TimerEvent: {}
+[17.847374] (-) TimerEvent: {}
+[17.948214] (-) TimerEvent: {}
+[18.049032] (-) TimerEvent: {}
+[18.123028] (motor_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[18.149171] (-) TimerEvent: {}
+[18.204397] (motor_interfaces) StdoutLine: {'line': b'creating motor_interfaces.egg-info\n'}
+[18.205233] (motor_interfaces) StdoutLine: {'line': b'writing motor_interfaces.egg-info/PKG-INFO\n'}
+[18.206941] (motor_interfaces) StdoutLine: {'line': b'writing dependency_links to motor_interfaces.egg-info/dependency_links.txt\n'}
+[18.208657] (motor_interfaces) StdoutLine: {'line': b'writing top-level names to motor_interfaces.egg-info/top_level.txt\n'}
+[18.209358] (motor_interfaces) StdoutLine: {'line': b"writing manifest file 'motor_interfaces.egg-info/SOURCES.txt'\n"}
+[18.249373] (-) TimerEvent: {}
+[18.350225] (-) TimerEvent: {}
+[18.449067] (motor_interfaces) StdoutLine: {'line': b"reading manifest file 'motor_interfaces.egg-info/SOURCES.txt'\n"}
+[18.450338] (-) TimerEvent: {}
+[18.454220] (motor_interfaces) StdoutLine: {'line': b"writing manifest file 'motor_interfaces.egg-info/SOURCES.txt'\n"}
+[18.550580] (-) TimerEvent: {}
+[18.651523] (-) TimerEvent: {}
+[18.671921] (motor_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_motor_interfaces_egg\n'}
+[18.751730] (-) TimerEvent: {}
+[18.852601] (-) TimerEvent: {}
+[18.953470] (-) TimerEvent: {}
+[19.054323] (-) TimerEvent: {}
+[19.155169] (-) TimerEvent: {}
+[19.255975] (-) TimerEvent: {}
+[19.356770] (-) TimerEvent: {}
+[19.457710] (-) TimerEvent: {}
+[19.558820] (-) TimerEvent: {}
+[19.605619] (motor_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[19.651811] (motor_interfaces) StdoutLine: {'line': b'[  5%] Built target motor_interfaces__cpp\n'}
+[19.659029] (-) TimerEvent: {}
+[19.661995] (motor_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File '/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp' has modification time 785872095 s in the future\n"}
+[19.663070] (motor_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File '/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp' has modification time 753228258 s in the future\n"}
+[19.663910] (motor_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File '/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp' has modification time 806007045 s in the future\n"}
+[19.679687] (motor_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[19.707774] (motor_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[19.708785] (motor_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[19.709452] (motor_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[19.720199] (motor_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File '/opt/ros/humble/lib/rosidl_generator_c/rosidl_generator_c' has modification time 806007042 s in the future\n"}
+[19.758972] (motor_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[19.759791] (-) TimerEvent: {}
+[19.860511] (-) TimerEvent: {}
+[19.961417] (-) TimerEvent: {}
+[20.062274] (-) TimerEvent: {}
+[20.163140] (-) TimerEvent: {}
+[20.264009] (-) TimerEvent: {}
+[20.364882] (-) TimerEvent: {}
+[20.465806] (-) TimerEvent: {}
+[20.566652] (-) TimerEvent: {}
+[20.667550] (-) TimerEvent: {}
+[20.768386] (-) TimerEvent: {}
+[20.869212] (-) TimerEvent: {}
+[20.970033] (-) TimerEvent: {}
+[21.070865] (-) TimerEvent: {}
+[21.171683] (-) TimerEvent: {}
+[21.272500] (-) TimerEvent: {}
+[21.373306] (-) TimerEvent: {}
+[21.474108] (-) TimerEvent: {}
+[21.574914] (-) TimerEvent: {}
+[21.675755] (-) TimerEvent: {}
+[21.776603] (-) TimerEvent: {}
+[21.877479] (-) TimerEvent: {}
+[21.978329] (-) TimerEvent: {}
+[22.033867] (motor_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[22.039337] (motor_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File '/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp' has modification time 785872093 s in the future\n"}
+[22.073029] (motor_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[22.078485] (-) TimerEvent: {}
+[22.179401] (-) TimerEvent: {}
+[22.236916] (motor_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[22.242718] (motor_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File '/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp' has modification time 806007043 s in the future\n"}
+[22.277613] (motor_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[22.279535] (-) TimerEvent: {}
+[22.331890] (motor_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[22.337705] (motor_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File '/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp' has modification time 753228256 s in the future\n"}
+[22.374342] (motor_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[22.379743] (-) TimerEvent: {}
+[22.480596] (-) TimerEvent: {}
+[22.581491] (-) TimerEvent: {}
+[22.606841] (motor_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/motor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motor_interfaces/msg/detail/motor_state__functions.c.o\x1b[0m\n'}
+[22.607869] (motor_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/motor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motor_interfaces/msg/detail/motor_cmd__functions.c.o\x1b[0m\n'}
+[22.681680] (-) TimerEvent: {}
+[22.782590] (-) TimerEvent: {}
+[22.883558] (-) TimerEvent: {}
+[22.934521] (motor_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libmotor_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[22.983765] (-) TimerEvent: {}
+[23.084575] (-) TimerEvent: {}
+[23.100029] (motor_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[23.135141] (motor_interfaces) StdoutLine: {'line': b'[ 20%] Built target motor_interfaces__rosidl_generator_c\n'}
+[23.145144] (motor_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File '/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c' has modification time 753228253 s in the future\n"}
+[23.146267] (motor_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File '/opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c' has modification time 806007043 s in the future\n"}
+[23.147066] (motor_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File '/opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c' has modification time 785872092 s in the future\n"}
+[23.178532] (motor_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[23.179367] (motor_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[23.179968] (motor_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[23.184786] (-) TimerEvent: {}
+[23.285719] (-) TimerEvent: {}
+[23.386622] (-) TimerEvent: {}
+[23.487577] (-) TimerEvent: {}
+[23.588516] (-) TimerEvent: {}
+[23.689396] (-) TimerEvent: {}
+[23.790247] (-) TimerEvent: {}
+[23.891107] (-) TimerEvent: {}
+[23.991996] (-) TimerEvent: {}
+[24.092836] (-) TimerEvent: {}
+[24.193686] (-) TimerEvent: {}
+[24.294503] (-) TimerEvent: {}
+[24.395403] (-) TimerEvent: {}
+[24.430837] (motor_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/motor_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motor_interfaces/msg/motor_state__type_support.cpp.o\x1b[0m\n'}
+[24.469229] (motor_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/motor_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motor_interfaces/msg/motor_cmd__type_support.cpp.o\x1b[0m\n'}
+[24.495621] (-) TimerEvent: {}
+[24.596494] (-) TimerEvent: {}
+[24.697450] (-) TimerEvent: {}
+[24.798437] (-) TimerEvent: {}
+[24.889999] (motor_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/motor_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motor_interfaces/msg/detail/motor_cmd__type_support.cpp.o\x1b[0m\n'}
+[24.898728] (-) TimerEvent: {}
+[24.902239] (motor_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/motor_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motor_interfaces/msg/detail/motor_state__type_support.cpp.o\x1b[0m\n'}
+[24.998959] (-) TimerEvent: {}
+[25.031359] (motor_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/motor_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motor_interfaces/msg/detail/dds_fastrtps/motor_state__type_support.cpp.o\x1b[0m\n'}
+[25.099223] (-) TimerEvent: {}
+[25.200615] (-) TimerEvent: {}
+[25.301698] (-) TimerEvent: {}
+[25.403087] (-) TimerEvent: {}
+[25.504580] (-) TimerEvent: {}
+[25.606219] (-) TimerEvent: {}
+[25.683483] (motor_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[25.691410] (motor_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File '/opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c' has modification time 785872089 s in the future\n"}
+[25.706508] (-) TimerEvent: {}
+[25.733595] (motor_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[25.809364] (-) TimerEvent: {}
+[25.910604] (-) TimerEvent: {}
+[25.943760] (motor_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[25.950566] (motor_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File '/opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c' has modification time 806007040 s in the future\n"}
+[25.989426] (motor_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[26.010875] (-) TimerEvent: {}
+[26.112134] (-) TimerEvent: {}
+[26.134082] (motor_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[26.141939] (motor_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File '/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c' has modification time 753228250 s in the future\n"}
+[26.183815] (motor_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[26.212422] (-) TimerEvent: {}
+[26.313612] (-) TimerEvent: {}
+[26.414687] (-) TimerEvent: {}
+[26.476840] (motor_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/motor_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motor_interfaces/msg/detail/dds_fastrtps/motor_cmd__type_support.cpp.o\x1b[0m\n'}
+[26.502960] (motor_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[26.515012] (-) TimerEvent: {}
+[26.616226] (-) TimerEvent: {}
+[26.672570] (motor_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[26.711374] (motor_interfaces) StdoutLine: {'line': b'[ 46%] Built target motor_interfaces__rosidl_typesupport_cpp\n'}
+[26.716468] (-) TimerEvent: {}
+[26.817823] (-) TimerEvent: {}
+[26.919219] (-) TimerEvent: {}
+[27.020675] (-) TimerEvent: {}
+[27.122006] (-) TimerEvent: {}
+[27.223337] (-) TimerEvent: {}
+[27.324683] (-) TimerEvent: {}
+[27.425988] (-) TimerEvent: {}
+[27.527394] (-) TimerEvent: {}
+[27.628733] (-) TimerEvent: {}
+[27.730125] (-) TimerEvent: {}
+[27.831451] (-) TimerEvent: {}
+[27.932735] (-) TimerEvent: {}
+[28.005349] (motor_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[28.032929] (-) TimerEvent: {}
+[28.134048] (-) TimerEvent: {}
+[28.234937] (-) TimerEvent: {}
+[28.335871] (-) TimerEvent: {}
+[28.384014] (motor_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/motor_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_interfaces/msg/motor_state__type_support.cpp.o\x1b[0m\n'}
+[28.407107] (motor_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/motor_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_interfaces/msg/motor_cmd__type_support.cpp.o\x1b[0m\n'}
+[28.436111] (-) TimerEvent: {}
+[28.449412] (motor_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[28.486319] (motor_interfaces) StdoutLine: {'line': b'[ 53%] Built target motor_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[28.536315] (-) TimerEvent: {}
+[28.556326] (motor_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[28.636553] (-) TimerEvent: {}
+[28.705132] (motor_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[28.736800] (-) TimerEvent: {}
+[28.740051] (motor_interfaces) StdoutLine: {'line': b'[ 56%] Built target motor_interfaces__rosidl_typesupport_c\n'}
+[28.794539] (motor_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/motor_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motor_interfaces/msg/detail/motor_state__type_support.c.o\x1b[0m\n'}
+[28.795400] (motor_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/motor_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motor_interfaces/msg/detail/motor_cmd__type_support.c.o\x1b[0m\n'}
+[28.837073] (-) TimerEvent: {}
+[28.938036] (-) TimerEvent: {}
+[29.039049] (-) TimerEvent: {}
+[29.045091] (motor_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libmotor_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[29.073314] (motor_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/motor_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motor_interfaces/msg/detail/motor_state__type_support_c.cpp.o\x1b[0m\n'}
+[29.074213] (motor_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/motor_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motor_interfaces/msg/detail/motor_cmd__type_support_c.cpp.o\x1b[0m\n'}
+[29.139310] (-) TimerEvent: {}
+[29.142574] (motor_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[29.182446] (motor_interfaces) StdoutLine: {'line': b'[ 69%] Built target motor_interfaces__rosidl_typesupport_introspection_c\n'}
+[29.239530] (-) TimerEvent: {}
+[29.340560] (-) TimerEvent: {}
+[29.437032] (motor_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[29.440700] (-) TimerEvent: {}
+[29.541676] (-) TimerEvent: {}
+[29.642718] (-) TimerEvent: {}
+[29.743870] (-) TimerEvent: {}
+[29.844908] (-) TimerEvent: {}
+[29.867449] (motor_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[29.903108] (motor_interfaces) StdoutLine: {'line': b'[ 71%] Built target motor_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[29.945105] (-) TimerEvent: {}
+[30.046089] (-) TimerEvent: {}
+[30.146943] (-) TimerEvent: {}
+[30.247829] (-) TimerEvent: {}
+[30.348708] (-) TimerEvent: {}
+[30.449567] (-) TimerEvent: {}
+[30.550438] (-) TimerEvent: {}
+[30.651325] (-) TimerEvent: {}
+[30.752189] (-) TimerEvent: {}
+[30.853045] (-) TimerEvent: {}
+[30.953905] (-) TimerEvent: {}
+[31.034553] (motor_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[31.054114] (-) TimerEvent: {}
+[31.155084] (-) TimerEvent: {}
+[31.256135] (-) TimerEvent: {}
+[31.357166] (-) TimerEvent: {}
+[31.458149] (-) TimerEvent: {}
+[31.487623] (motor_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[31.524745] (motor_interfaces) StdoutLine: {'line': b'[ 74%] Built target motor_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[31.558335] (-) TimerEvent: {}
+[31.580371] (motor_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/src/motor_interfaces/msg/MotorState.msg' has modification time 835262251 s in the future\n"}
+[31.581399] (motor_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[31.616427] (motor_interfaces) StdoutLine: {'line': b'[ 74%] Built target motor_interfaces\n'}
+[31.658549] (-) TimerEvent: {}
+[31.680355] (motor_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File '/opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py' has modification time 806007219 s in the future\n"}
+[31.716724] (motor_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[31.758679] (-) TimerEvent: {}
+[31.859427] (-) TimerEvent: {}
+[31.960182] (-) TimerEvent: {}
+[32.060964] (-) TimerEvent: {}
+[32.161702] (-) TimerEvent: {}
+[32.262468] (-) TimerEvent: {}
+[32.363228] (-) TimerEvent: {}
+[32.464008] (-) TimerEvent: {}
+[32.564764] (-) TimerEvent: {}
+[32.665485] (-) TimerEvent: {}
+[32.766218] (-) TimerEvent: {}
+[32.866989] (-) TimerEvent: {}
+[32.967734] (-) TimerEvent: {}
+[33.068455] (-) TimerEvent: {}
+[33.169180] (-) TimerEvent: {}
+[33.269881] (-) TimerEvent: {}
+[33.370636] (-) TimerEvent: {}
+[33.471412] (-) TimerEvent: {}
+[33.572180] (-) TimerEvent: {}
+[33.672944] (-) TimerEvent: {}
+[33.773730] (-) TimerEvent: {}
+[33.874484] (-) TimerEvent: {}
+[33.975228] (-) TimerEvent: {}
+[34.075968] (-) TimerEvent: {}
+[34.176708] (-) TimerEvent: {}
+[34.277447] (-) TimerEvent: {}
+[34.378169] (-) TimerEvent: {}
+[34.478931] (-) TimerEvent: {}
+[34.579698] (-) TimerEvent: {}
+[34.680442] (-) TimerEvent: {}
+[34.781191] (-) TimerEvent: {}
+[34.881979] (-) TimerEvent: {}
+[34.982721] (-) TimerEvent: {}
+[35.083437] (-) TimerEvent: {}
+[35.184182] (-) TimerEvent: {}
+[35.284909] (-) TimerEvent: {}
+[35.385592] (-) TimerEvent: {}
+[35.486398] (-) TimerEvent: {}
+[35.587400] (-) TimerEvent: {}
+[35.626171] (motor_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[35.662638] (motor_interfaces) StdoutLine: {'line': b'[ 76%] Built target motor_interfaces__py\n'}
+[35.687571] (-) TimerEvent: {}
+[35.723127] (motor_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File '/usr/lib/aarch64-linux-gnu/libpython3.10.so' has modification time 801680934 s in the future\n"}
+[35.756046] (motor_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/motor_interfaces__rosidl_generator_py.dir/rosidl_generator_py/motor_interfaces/msg/_motor_cmd_s.c.o\x1b[0m\n'}
+[35.756848] (motor_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/motor_interfaces__rosidl_generator_py.dir/rosidl_generator_py/motor_interfaces/msg/_motor_state_s.c.o\x1b[0m\n'}
+[35.787794] (-) TimerEvent: {}
+[35.888675] (-) TimerEvent: {}
+[35.989510] (-) TimerEvent: {}
+[36.090319] (-) TimerEvent: {}
+[36.191130] (-) TimerEvent: {}
+[36.291988] (-) TimerEvent: {}
+[36.392958] (-) TimerEvent: {}
+[36.493893] (-) TimerEvent: {}
+[36.594784] (-) TimerEvent: {}
+[36.667584] (motor_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/motor_interfaces/libmotor_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[36.694965] (-) TimerEvent: {}
+[36.795892] (-) TimerEvent: {}
+[36.863924] (motor_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[36.896133] (-) TimerEvent: {}
+[36.906364] (motor_interfaces) StdoutLine: {'line': b'[ 84%] Built target motor_interfaces__rosidl_generator_py\n'}
+[36.965891] (motor_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File '/usr/lib/aarch64-linux-gnu/libpython3.10.so' has modification time 801680933 s in the future\n"}
+[36.966706] (motor_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File '/usr/lib/aarch64-linux-gnu/libpython3.10.so' has modification time 801680933 s in the future\n"}
+[36.967448] (motor_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File '/usr/lib/aarch64-linux-gnu/libpython3.10.so' has modification time 801680933 s in the future\n"}
+[36.996358] (-) TimerEvent: {}
+[36.997593] (motor_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/motor_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/motor_interfaces/_motor_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[36.998387] (motor_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/motor_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/motor_interfaces/_motor_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[36.998966] (motor_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/motor_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/motor_interfaces/_motor_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[37.096574] (-) TimerEvent: {}
+[37.197497] (-) TimerEvent: {}
+[37.298383] (-) TimerEvent: {}
+[37.399260] (-) TimerEvent: {}
+[37.500169] (-) TimerEvent: {}
+[37.533959] (motor_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/motor_interfaces/motor_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[37.545660] (motor_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/motor_interfaces/motor_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[37.552906] (motor_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/motor_interfaces/motor_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[37.600424] (-) TimerEvent: {}
+[37.661594] (motor_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[37.673546] (motor_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[37.690175] (motor_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[37.697209] (motor_interfaces) StdoutLine: {'line': b'[100%] Built target motor_interfaces__rosidl_typesupport_c__pyext\n'}
+[37.700588] (-) TimerEvent: {}
+[37.708384] (motor_interfaces) StdoutLine: {'line': b'[100%] Built target motor_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[37.725222] (motor_interfaces) StdoutLine: {'line': b'[100%] Built target motor_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[37.788004] (motor_interfaces) CommandEnded: {'returncode': 0}
+[37.799509] (motor_interfaces) JobProgress: {'identifier': 'motor_interfaces', 'progress': 'install'}
+[37.801796] (-) TimerEvent: {}
+[37.844469] (motor_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/motor_interfaces'], 'cwd': '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/motor_interfaces', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1602'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/src'), ('DESKTOP_SESSION', 'xfce'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sunrise'), ('WINDOWID', '52428803'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sunrise/.local/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.local/bin:/home/sunrise/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1231,unix/ubuntu:/tmp/.ICE-unix/1231'), ('GDM_LANG', 'en'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/sunrise/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXb3GBER/agent.1596'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/sunrise'), ('AMENT_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'xfce'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/motor_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share'), ('PYTHONPATH', '/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble')]), 'shell': False}
+[37.883990] (motor_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[37.884934] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/ament_index/resource_index/rosidl_interfaces/motor_interfaces\n'}
+[37.885581] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces\n'}
+[37.886116] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg\n'}
+[37.886628] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/motor_cmd.h\n'}
+[37.887227] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail\n'}
+[37.887680] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail/motor_state__type_support.h\n'}
+[37.888258] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail/motor_state__struct.h\n'}
+[37.888781] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail/motor_state__functions.h\n'}
+[37.889299] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail/motor_cmd__struct.h\n'}
+[37.889813] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail/motor_cmd__functions.h\n'}
+[37.890302] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail/motor_state__functions.c\n'}
+[37.890812] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail/motor_cmd__type_support.h\n'}
+[37.891297] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail/motor_cmd__functions.c\n'}
+[37.891783] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[37.892292] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/motor_state.h\n'}
+[37.893023] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/environment/library_path.sh\n'}
+[37.893604] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/environment/library_path.dsv\n'}
+[37.894427] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/lib/libmotor_interfaces__rosidl_generator_c.so\n'}
+[37.896067] (motor_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/lib/libmotor_interfaces__rosidl_generator_c.so" to ""\n'}
+[37.896736] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces\n'}
+[37.897306] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg\n'}
+[37.897818] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail\n'}
+[37.898313] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail/motor_state__rosidl_typesupport_fastrtps_c.h\n'}
+[37.898811] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[37.899244] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[37.899664] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/lib/libmotor_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[37.900210] (motor_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/lib/libmotor_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[37.900797] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces\n'}
+[37.901220] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg\n'}
+[37.901704] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail\n'}
+[37.902162] (-) TimerEvent: {}
+[37.902626] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail/motor_state__type_support.c\n'}
+[37.903141] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail/motor_cmd__type_support.c\n'}
+[37.903659] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail/motor_state__rosidl_typesupport_introspection_c.h\n'}
+[37.904119] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail/motor_cmd__rosidl_typesupport_introspection_c.h\n'}
+[37.904541] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[37.905051] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/lib/libmotor_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[37.905547] (motor_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/lib/libmotor_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[37.905971] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/lib/libmotor_interfaces__rosidl_typesupport_c.so\n'}
+[37.906447] (motor_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/lib/libmotor_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[37.907078] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces\n'}
+[37.907588] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg\n'}
+[37.908080] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/motor_state.hpp\n'}
+[37.908616] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/motor_cmd.hpp\n'}
+[37.909104] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail\n'}
+[37.909593] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail/motor_cmd__type_support.hpp\n'}
+[37.910085] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail/motor_state__builder.hpp\n'}
+[37.910569] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail/motor_state__struct.hpp\n'}
+[37.911047] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail/motor_cmd__builder.hpp\n'}
+[37.911536] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail/motor_state__traits.hpp\n'}
+[37.912025] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail/motor_cmd__traits.hpp\n'}
+[37.912539] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail/motor_state__type_support.hpp\n'}
+[37.913110] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail/motor_cmd__struct.hpp\n'}
+[37.913670] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[37.914185] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces\n'}
+[37.914717] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg\n'}
+[37.915232] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[37.915693] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail\n'}
+[37.916161] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail/motor_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[37.916673] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[37.917328] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail/dds_fastrtps\n'}
+[37.917840] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/lib/libmotor_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[37.918342] (motor_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/lib/libmotor_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[37.918841] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces\n'}
+[37.919336] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg\n'}
+[37.919834] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail\n'}
+[37.920285] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail/motor_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[37.920723] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail/motor_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[37.921157] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail/motor_cmd__type_support.cpp\n'}
+[37.921719] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/detail/motor_state__type_support.cpp\n'}
+[37.922156] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/lib/libmotor_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[37.922582] (motor_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/lib/libmotor_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[37.923136] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/lib/libmotor_interfaces__rosidl_typesupport_cpp.so\n'}
+[37.923568] (motor_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/lib/libmotor_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[37.924062] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/environment/pythonpath.sh\n'}
+[37.924554] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/environment/pythonpath.dsv\n'}
+[37.925054] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces-0.1.0-py3.10.egg-info\n'}
+[37.925553] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[37.926050] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[37.926542] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[37.927071] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[37.927617] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces\n'}
+[37.928129] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/libmotor_interfaces__rosidl_generator_py.so\n'}
+[37.928627] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/motor_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[37.929153] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/_motor_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[37.929654] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/msg\n'}
+[37.930192] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/msg/__init__.py\n'}
+[37.930712] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/msg/_motor_state_s.c\n'}
+[37.931233] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/msg/_motor_state.py\n'}
+[37.931854] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/msg/_motor_cmd_s.c\n'}
+[37.932471] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/msg/_motor_cmd.py\n'}
+[37.933051] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/__init__.py\n'}
+[37.933567] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/motor_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[37.934080] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/_motor_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[37.934591] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/motor_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[37.935039] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/_motor_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[38.002387] (-) TimerEvent: {}
+[38.103251] (-) TimerEvent: {}
+[38.146667] (motor_interfaces) StdoutLine: {'line': b"Listing '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces'...\n"}
+[38.147557] (motor_interfaces) StdoutLine: {'line': b"Compiling '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/__init__.py'...\n"}
+[38.148190] (motor_interfaces) StdoutLine: {'line': b"Listing '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/msg'...\n"}
+[38.148760] (motor_interfaces) StdoutLine: {'line': b"Compiling '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/msg/__init__.py'...\n"}
+[38.149298] (motor_interfaces) StdoutLine: {'line': b"Compiling '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/msg/_motor_cmd.py'...\n"}
+[38.149813] (motor_interfaces) StdoutLine: {'line': b"Compiling '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/msg/_motor_state.py'...\n"}
+[38.189446] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/motor_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[38.190653] (motor_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/motor_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[38.191453] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/motor_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[38.192736] (motor_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/motor_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[38.193510] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/motor_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[38.194743] (motor_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/motor_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[38.195333] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/lib/libmotor_interfaces__rosidl_generator_py.so\n'}
+[38.196432] (motor_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/lib/libmotor_interfaces__rosidl_generator_py.so" to ""\n'}
+[38.197015] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/msg/MotorState.idl\n'}
+[38.197626] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/msg/MotorCmd.idl\n'}
+[38.198208] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/msg/MotorState.msg\n'}
+[38.198746] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/msg/MotorCmd.msg\n'}
+[38.199398] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/ament_index/resource_index/package_run_dependencies/motor_interfaces\n'}
+[38.200156] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/ament_index/resource_index/parent_prefix_path/motor_interfaces\n'}
+[38.200733] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/environment/ament_prefix_path.sh\n'}
+[38.201290] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/environment/ament_prefix_path.dsv\n'}
+[38.201839] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/environment/path.sh\n'}
+[38.202386] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/environment/path.dsv\n'}
+[38.202956] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/local_setup.bash\n'}
+[38.203400] (-) TimerEvent: {}
+[38.203903] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/local_setup.sh\n'}
+[38.204455] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/local_setup.zsh\n'}
+[38.204979] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/local_setup.dsv\n'}
+[38.205488] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/package.dsv\n'}
+[38.206060] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/ament_index/resource_index/packages/motor_interfaces\n'}
+[38.206840] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/cmake/export_motor_interfaces__rosidl_generator_cExport.cmake\n'}
+[38.207477] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/cmake/export_motor_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[38.208136] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/cmake/export_motor_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[38.208762] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/cmake/export_motor_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[38.209427] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/cmake/motor_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[38.210042] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/cmake/motor_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[38.210711] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/cmake/motor_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[38.211309] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/cmake/motor_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[38.211978] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/cmake/export_motor_interfaces__rosidl_generator_cppExport.cmake\n'}
+[38.212626] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/cmake/export_motor_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[38.213243] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/cmake/export_motor_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[38.213907] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/cmake/motor_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[38.214574] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/cmake/motor_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[38.215279] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/cmake/motor_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[38.215958] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/cmake/motor_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[38.216630] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/cmake/export_motor_interfaces__rosidl_generator_pyExport.cmake\n'}
+[38.217314] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/cmake/export_motor_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[38.217908] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[38.218495] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[38.219069] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[38.219676] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[38.220273] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[38.220843] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[38.221450] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[38.222028] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/cmake/motor_interfacesConfig.cmake\n'}
+[38.222591] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/cmake/motor_interfacesConfig-version.cmake\n'}
+[38.223138] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/package.xml\n'}
+[38.232176] (motor_interfaces) CommandEnded: {'returncode': 0}
+[38.304220] (-) TimerEvent: {}
+[38.379237] (motor_interfaces) JobEnded: {'identifier': 'motor_interfaces', 'rc': 0}
+[38.385453] (drive_motor) JobStarted: {'identifier': 'drive_motor'}
+[38.404492] (-) TimerEvent: {}
+[38.412815] (drive_motor) JobProgress: {'identifier': 'drive_motor', 'progress': 'cmake'}
+[38.415136] (drive_motor) Command: {'cmd': ['/usr/bin/cmake', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/src/drive_motor', '-DCMAKE_INSTALL_PREFIX=/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor'], 'cwd': '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/drive_motor', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1602'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/src'), ('DESKTOP_SESSION', 'xfce'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sunrise'), ('WINDOWID', '52428803'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sunrise/.local/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.local/bin:/home/sunrise/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1231,unix/ubuntu:/tmp/.ICE-unix/1231'), ('GDM_LANG', 'en'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/sunrise/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXb3GBER/agent.1596'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/sunrise'), ('AMENT_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces:/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'xfce'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/drive_motor'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share'), ('PYTHONPATH', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages:/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces:/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble')]), 'shell': False}
+[38.504695] (-) TimerEvent: {}
+[38.605600] (-) TimerEvent: {}
+[38.706685] (-) TimerEvent: {}
+[38.716753] (drive_motor) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[38.806838] (-) TimerEvent: {}
+[38.907767] (-) TimerEvent: {}
+[39.008640] (-) TimerEvent: {}
+[39.035940] (drive_motor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[39.073263] (drive_motor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[39.108822] (-) TimerEvent: {}
+[39.209711] (-) TimerEvent: {}
+[39.310576] (-) TimerEvent: {}
+[39.411464] (-) TimerEvent: {}
+[39.437486] (drive_motor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[39.499490] (drive_motor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[39.500458] (drive_motor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[39.502274] (drive_motor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[39.511575] (-) TimerEvent: {}
+[39.516095] (drive_motor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[39.611821] (-) TimerEvent: {}
+[39.712777] (-) TimerEvent: {}
+[39.813664] (-) TimerEvent: {}
+[39.914548] (-) TimerEvent: {}
+[39.921376] (drive_motor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[40.006577] (drive_motor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[40.007824] (drive_motor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[40.010098] (drive_motor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[40.014637] (-) TimerEvent: {}
+[40.019168] (drive_motor) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[40.114838] (-) TimerEvent: {}
+[40.215687] (-) TimerEvent: {}
+[40.316524] (-) TimerEvent: {}
+[40.417344] (-) TimerEvent: {}
+[40.518109] (-) TimerEvent: {}
+[40.618930] (-) TimerEvent: {}
+[40.719798] (-) TimerEvent: {}
+[40.820581] (-) TimerEvent: {}
+[40.921368] (-) TimerEvent: {}
+[41.022131] (-) TimerEvent: {}
+[41.122896] (-) TimerEvent: {}
+[41.223678] (-) TimerEvent: {}
+[41.324526] (-) TimerEvent: {}
+[41.425402] (-) TimerEvent: {}
+[41.526223] (-) TimerEvent: {}
+[41.627020] (-) TimerEvent: {}
+[41.727781] (-) TimerEvent: {}
+[41.828541] (-) TimerEvent: {}
+[41.929329] (-) TimerEvent: {}
+[42.030111] (-) TimerEvent: {}
+[42.130937] (-) TimerEvent: {}
+[42.210139] (drive_motor) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[42.231278] (-) TimerEvent: {}
+[42.332880] (-) TimerEvent: {}
+[42.433705] (-) TimerEvent: {}
+[42.534560] (-) TimerEvent: {}
+[42.635541] (-) TimerEvent: {}
+[42.737275] (-) TimerEvent: {}
+[42.763694] (drive_motor) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[42.837493] (-) TimerEvent: {}
+[42.938412] (-) TimerEvent: {}
+[42.962326] (drive_motor) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[42.985199] (drive_motor) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[43.022755] (drive_motor) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[43.038527] (-) TimerEvent: {}
+[43.083993] (drive_motor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[43.138728] (-) TimerEvent: {}
+[43.162575] (drive_motor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[43.238937] (-) TimerEvent: {}
+[43.339862] (-) TimerEvent: {}
+[43.403380] (drive_motor) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[43.416646] (drive_motor) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[43.440010] (-) TimerEvent: {}
+[43.540811] (-) TimerEvent: {}
+[43.641624] (-) TimerEvent: {}
+[43.742422] (-) TimerEvent: {}
+[43.841186] (drive_motor) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[43.842516] (-) TimerEvent: {}
+[43.943236] (-) TimerEvent: {}
+[43.965765] (drive_motor) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[44.043421] (-) TimerEvent: {}
+[44.136585] (drive_motor) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[44.143540] (-) TimerEvent: {}
+[44.178001] (drive_motor) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[44.243755] (-) TimerEvent: {}
+[44.344666] (-) TimerEvent: {}
+[44.445605] (-) TimerEvent: {}
+[44.546590] (-) TimerEvent: {}
+[44.555777] (drive_motor) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[44.558830] (drive_motor) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[44.646789] (-) TimerEvent: {}
+[44.747889] (-) TimerEvent: {}
+[44.849628] (-) TimerEvent: {}
+[44.950737] (-) TimerEvent: {}
+[45.010758] (drive_motor) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[45.024145] (drive_motor) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[45.050916] (-) TimerEvent: {}
+[45.152045] (-) TimerEvent: {}
+[45.252884] (-) TimerEvent: {}
+[45.353718] (-) TimerEvent: {}
+[45.388580] (drive_motor) StdoutLine: {'line': b'-- Found motor_interfaces: 0.1.0 (/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/cmake)\n'}
+[45.453908] (-) TimerEvent: {}
+[45.554688] (-) TimerEvent: {}
+[45.655439] (-) TimerEvent: {}
+[45.756243] (-) TimerEvent: {}
+[45.836472] (drive_motor) StdoutLine: {'line': b'-- Configuring done\n'}
+[45.856406] (-) TimerEvent: {}
+[45.896032] (drive_motor) StdoutLine: {'line': b'-- Generating done\n'}
+[45.920297] (drive_motor) StdoutLine: {'line': b'-- Build files have been written to: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/drive_motor\n'}
+[45.956587] (-) TimerEvent: {}
+[45.979571] (drive_motor) CommandEnded: {'returncode': 0}
+[45.989757] (drive_motor) JobProgress: {'identifier': 'drive_motor', 'progress': 'build'}
+[45.994076] (drive_motor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/drive_motor', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/drive_motor', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1602'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/src'), ('DESKTOP_SESSION', 'xfce'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sunrise'), ('WINDOWID', '52428803'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sunrise/.local/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.local/bin:/home/sunrise/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1231,unix/ubuntu:/tmp/.ICE-unix/1231'), ('GDM_LANG', 'en'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/sunrise/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXb3GBER/agent.1596'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/sunrise'), ('AMENT_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces:/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'xfce'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/drive_motor'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share'), ('PYTHONPATH', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages:/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces:/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble')]), 'shell': False}
+[46.056804] (-) TimerEvent: {}
+[46.108618] (drive_motor) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[46.156923] (-) TimerEvent: {}
+[46.257657] (-) TimerEvent: {}
+[46.358361] (-) TimerEvent: {}
+[46.459141] (-) TimerEvent: {}
+[46.559915] (-) TimerEvent: {}
+[46.660639] (-) TimerEvent: {}
+[46.761438] (-) TimerEvent: {}
+[46.862326] (-) TimerEvent: {}
+[46.876660] (drive_motor) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[46.962492] (-) TimerEvent: {}
+[47.010684] (drive_motor) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[47.025030] (drive_motor) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[47.054993] (drive_motor) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[47.062582] (-) TimerEvent: {}
+[47.109636] (drive_motor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[47.162779] (-) TimerEvent: {}
+[47.176449] (drive_motor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[47.262949] (-) TimerEvent: {}
+[47.348811] (drive_motor) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[47.355230] (drive_motor) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[47.363056] (-) TimerEvent: {}
+[47.463752] (-) TimerEvent: {}
+[47.564553] (-) TimerEvent: {}
+[47.665359] (-) TimerEvent: {}
+[47.766180] (-) TimerEvent: {}
+[47.782886] (drive_motor) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[47.866355] (-) TimerEvent: {}
+[47.967177] (-) TimerEvent: {}
+[48.053017] (drive_motor) StdoutLine: {'line': b'-- Found motor_interfaces: 0.1.0 (/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/cmake)\n'}
+[48.067303] (-) TimerEvent: {}
+[48.167985] (-) TimerEvent: {}
+[48.268689] (-) TimerEvent: {}
+[48.369447] (-) TimerEvent: {}
+[48.470270] (-) TimerEvent: {}
+[48.493267] (drive_motor) StdoutLine: {'line': b'-- Configuring done\n'}
+[48.550682] (drive_motor) StdoutLine: {'line': b'-- Generating done\n'}
+[48.570430] (-) TimerEvent: {}
+[48.574601] (drive_motor) StdoutLine: {'line': b'-- Build files have been written to: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/drive_motor\n'}
+[48.670623] (-) TimerEvent: {}
+[48.724232] (drive_motor) StderrLine: {'line': b"gmake[2]: Warning: File '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/src/drive_motor/src/motor_base.cpp' has modification time 835262234 s in the future\n"}
+[48.757589] (drive_motor) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/drive_motor_core.dir/src/motor_group.cpp.o\x1b[0m\n'}
+[48.758527] (drive_motor) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/drive_motor_core.dir/src/motor_hw.cpp.o\x1b[0m\n'}
+[48.759114] (drive_motor) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/drive_motor_core.dir/src/motor_base.cpp.o\x1b[0m\n'}
+[48.759618] (drive_motor) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/drive_motor_core.dir/src/can_bridge.cpp.o\x1b[0m\n'}
+[48.770862] (-) TimerEvent: {}
+[48.871789] (-) TimerEvent: {}
+[48.972655] (-) TimerEvent: {}
+[49.073489] (-) TimerEvent: {}
+[49.174332] (-) TimerEvent: {}
+[49.275199] (-) TimerEvent: {}
+[49.376081] (-) TimerEvent: {}
+[49.476981] (-) TimerEvent: {}
+[49.577862] (-) TimerEvent: {}
+[49.678722] (-) TimerEvent: {}
+[49.779584] (-) TimerEvent: {}
+[49.880558] (-) TimerEvent: {}
+[49.981638] (-) TimerEvent: {}
+[50.082888] (-) TimerEvent: {}
+[50.183948] (-) TimerEvent: {}
+[50.284990] (-) TimerEvent: {}
+[50.386023] (-) TimerEvent: {}
+[50.487162] (-) TimerEvent: {}
+[50.588215] (-) TimerEvent: {}
+[50.689265] (-) TimerEvent: {}
+[50.790325] (-) TimerEvent: {}
+[50.891349] (-) TimerEvent: {}
+[50.992391] (-) TimerEvent: {}
+[51.093397] (-) TimerEvent: {}
+[51.194387] (-) TimerEvent: {}
+[51.295347] (-) TimerEvent: {}
+[51.396324] (-) TimerEvent: {}
+[51.497359] (-) TimerEvent: {}
+[51.598390] (-) TimerEvent: {}
+[51.699378] (-) TimerEvent: {}
+[51.800315] (-) TimerEvent: {}
+[51.901461] (-) TimerEvent: {}
+[52.002378] (-) TimerEvent: {}
+[52.103289] (-) TimerEvent: {}
+[52.204173] (-) TimerEvent: {}
+[52.305070] (-) TimerEvent: {}
+[52.405986] (-) TimerEvent: {}
+[52.506994] (-) TimerEvent: {}
+[52.607947] (-) TimerEvent: {}
+[52.708887] (-) TimerEvent: {}
+[52.809806] (-) TimerEvent: {}
+[52.910718] (-) TimerEvent: {}
+[53.011602] (-) TimerEvent: {}
+[53.112478] (-) TimerEvent: {}
+[53.213361] (-) TimerEvent: {}
+[53.314240] (-) TimerEvent: {}
+[53.415168] (-) TimerEvent: {}
+[53.516086] (-) TimerEvent: {}
+[53.617017] (-) TimerEvent: {}
+[53.717899] (-) TimerEvent: {}
+[53.818850] (-) TimerEvent: {}
+[53.919808] (-) TimerEvent: {}
+[54.020752] (-) TimerEvent: {}
+[54.121693] (-) TimerEvent: {}
+[54.222657] (-) TimerEvent: {}
+[54.323616] (-) TimerEvent: {}
+[54.424560] (-) TimerEvent: {}
+[54.525519] (-) TimerEvent: {}
+[54.626482] (-) TimerEvent: {}
+[54.727461] (-) TimerEvent: {}
+[54.828415] (-) TimerEvent: {}
+[54.929358] (-) TimerEvent: {}
+[55.030292] (-) TimerEvent: {}
+[55.131261] (-) TimerEvent: {}
+[55.232197] (-) TimerEvent: {}
+[55.333139] (-) TimerEvent: {}
+[55.434098] (-) TimerEvent: {}
+[55.535076] (-) TimerEvent: {}
+[55.636036] (-) TimerEvent: {}
+[55.736996] (-) TimerEvent: {}
+[55.837925] (-) TimerEvent: {}
+[55.938884] (-) TimerEvent: {}
+[56.039808] (-) TimerEvent: {}
+[56.140723] (-) TimerEvent: {}
+[56.241641] (-) TimerEvent: {}
+[56.342577] (-) TimerEvent: {}
+[56.443533] (-) TimerEvent: {}
+[56.544506] (-) TimerEvent: {}
+[56.645452] (-) TimerEvent: {}
+[56.746368] (-) TimerEvent: {}
+[56.847321] (-) TimerEvent: {}
+[56.948231] (-) TimerEvent: {}
+[57.049143] (-) TimerEvent: {}
+[57.150060] (-) TimerEvent: {}
+[57.250981] (-) TimerEvent: {}
+[57.351928] (-) TimerEvent: {}
+[57.452887] (-) TimerEvent: {}
+[57.553852] (-) TimerEvent: {}
+[57.654791] (-) TimerEvent: {}
+[57.755703] (-) TimerEvent: {}
+[57.856646] (-) TimerEvent: {}
+[57.957638] (-) TimerEvent: {}
+[58.058542] (-) TimerEvent: {}
+[58.159458] (-) TimerEvent: {}
+[58.260388] (-) TimerEvent: {}
+[58.361296] (-) TimerEvent: {}
+[58.462249] (-) TimerEvent: {}
+[58.563252] (-) TimerEvent: {}
+[58.664214] (-) TimerEvent: {}
+[58.765157] (-) TimerEvent: {}
+[58.866089] (-) TimerEvent: {}
+[58.967067] (-) TimerEvent: {}
+[59.067992] (-) TimerEvent: {}
+[59.168903] (-) TimerEvent: {}
+[59.269827] (-) TimerEvent: {}
+[59.370780] (-) TimerEvent: {}
+[59.471760] (-) TimerEvent: {}
+[59.572787] (-) TimerEvent: {}
+[59.673795] (-) TimerEvent: {}
+[59.774815] (-) TimerEvent: {}
+[59.875852] (-) TimerEvent: {}
+[59.976875] (-) TimerEvent: {}
+[60.077956] (-) TimerEvent: {}
+[60.178941] (-) TimerEvent: {}
+[60.279945] (-) TimerEvent: {}
+[60.380874] (-) TimerEvent: {}
+[60.481819] (-) TimerEvent: {}
+[60.582834] (-) TimerEvent: {}
+[60.683721] (-) TimerEvent: {}
+[60.784559] (-) TimerEvent: {}
+[60.885384] (-) TimerEvent: {}
+[60.986207] (-) TimerEvent: {}
+[61.087069] (-) TimerEvent: {}
+[61.187885] (-) TimerEvent: {}
+[61.288714] (-) TimerEvent: {}
+[61.389549] (-) TimerEvent: {}
+[61.490414] (-) TimerEvent: {}
+[61.591282] (-) TimerEvent: {}
+[61.692131] (-) TimerEvent: {}
+[61.792987] (-) TimerEvent: {}
+[61.893829] (-) TimerEvent: {}
+[61.994681] (-) TimerEvent: {}
+[62.095535] (-) TimerEvent: {}
+[62.196370] (-) TimerEvent: {}
+[62.297250] (-) TimerEvent: {}
+[62.398093] (-) TimerEvent: {}
+[62.498981] (-) TimerEvent: {}
+[62.599871] (-) TimerEvent: {}
+[62.700740] (-) TimerEvent: {}
+[62.801604] (-) TimerEvent: {}
+[62.902474] (-) TimerEvent: {}
+[63.003328] (-) TimerEvent: {}
+[63.104183] (-) TimerEvent: {}
+[63.205032] (-) TimerEvent: {}
+[63.305906] (-) TimerEvent: {}
+[63.406767] (-) TimerEvent: {}
+[63.507698] (-) TimerEvent: {}
+[63.608591] (-) TimerEvent: {}
+[63.709466] (-) TimerEvent: {}
+[63.810330] (-) TimerEvent: {}
+[63.911209] (-) TimerEvent: {}
+[64.012079] (-) TimerEvent: {}
+[64.112951] (-) TimerEvent: {}
+[64.213805] (-) TimerEvent: {}
+[64.314656] (-) TimerEvent: {}
+[64.415534] (-) TimerEvent: {}
+[64.516444] (-) TimerEvent: {}
+[64.617436] (-) TimerEvent: {}
+[64.718283] (-) TimerEvent: {}
+[64.819140] (-) TimerEvent: {}
+[64.919994] (-) TimerEvent: {}
+[65.020817] (-) TimerEvent: {}
+[65.121657] (-) TimerEvent: {}
+[65.222549] (-) TimerEvent: {}
+[65.323384] (-) TimerEvent: {}
+[65.424221] (-) TimerEvent: {}
+[65.525092] (-) TimerEvent: {}
+[65.625946] (-) TimerEvent: {}
+[65.726760] (-) TimerEvent: {}
+[65.827620] (-) TimerEvent: {}
+[65.928441] (-) TimerEvent: {}
+[66.029260] (-) TimerEvent: {}
+[66.130134] (-) TimerEvent: {}
+[66.182975] (drive_motor) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libdrive_motor_core.so\x1b[0m\n'}
+[66.230327] (-) TimerEvent: {}
+[66.331300] (-) TimerEvent: {}
+[66.432338] (-) TimerEvent: {}
+[66.533357] (-) TimerEvent: {}
+[66.634339] (-) TimerEvent: {}
+[66.735315] (-) TimerEvent: {}
+[66.836293] (-) TimerEvent: {}
+[66.937304] (-) TimerEvent: {}
+[66.973933] (drive_motor) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[67.007840] (drive_motor) StdoutLine: {'line': b'[ 71%] Built target drive_motor_core\n'}
+[67.037503] (-) TimerEvent: {}
+[67.072383] (drive_motor) StderrLine: {'line': b"gmake[2]: Warning: File '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/src/drive_motor/src/drive_motor_node.cpp' has modification time 835262216 s in the future\n"}
+[67.107031] (drive_motor) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/drive_motor_node.dir/src/drive_motor_node.cpp.o\x1b[0m\n'}
+[67.137706] (-) TimerEvent: {}
+[67.238662] (-) TimerEvent: {}
+[67.339543] (-) TimerEvent: {}
+[67.440395] (-) TimerEvent: {}
+[67.541251] (-) TimerEvent: {}
+[67.642141] (-) TimerEvent: {}
+[67.742999] (-) TimerEvent: {}
+[67.843872] (-) TimerEvent: {}
+[67.944713] (-) TimerEvent: {}
+[68.045552] (-) TimerEvent: {}
+[68.146399] (-) TimerEvent: {}
+[68.247278] (-) TimerEvent: {}
+[68.348136] (-) TimerEvent: {}
+[68.449042] (-) TimerEvent: {}
+[68.549975] (-) TimerEvent: {}
+[68.650917] (-) TimerEvent: {}
+[68.751795] (-) TimerEvent: {}
+[68.852660] (-) TimerEvent: {}
+[68.953540] (-) TimerEvent: {}
+[69.054400] (-) TimerEvent: {}
+[69.155280] (-) TimerEvent: {}
+[69.256168] (-) TimerEvent: {}
+[69.357119] (-) TimerEvent: {}
+[69.457987] (-) TimerEvent: {}
+[69.558863] (-) TimerEvent: {}
+[69.659749] (-) TimerEvent: {}
+[69.760605] (-) TimerEvent: {}
+[69.861460] (-) TimerEvent: {}
+[69.962330] (-) TimerEvent: {}
+[70.063192] (-) TimerEvent: {}
+[70.164057] (-) TimerEvent: {}
+[70.264947] (-) TimerEvent: {}
+[70.365821] (-) TimerEvent: {}
+[70.466740] (-) TimerEvent: {}
+[70.567653] (-) TimerEvent: {}
+[70.668532] (-) TimerEvent: {}
+[70.769393] (-) TimerEvent: {}
+[70.870258] (-) TimerEvent: {}
+[70.971123] (-) TimerEvent: {}
+[71.071997] (-) TimerEvent: {}
+[71.172884] (-) TimerEvent: {}
+[71.273752] (-) TimerEvent: {}
+[71.374603] (-) TimerEvent: {}
+[71.475463] (-) TimerEvent: {}
+[71.576316] (-) TimerEvent: {}
+[71.677216] (-) TimerEvent: {}
+[71.778088] (-) TimerEvent: {}
+[71.878987] (-) TimerEvent: {}
+[71.979882] (-) TimerEvent: {}
+[72.080768] (-) TimerEvent: {}
+[72.181653] (-) TimerEvent: {}
+[72.282524] (-) TimerEvent: {}
+[72.383400] (-) TimerEvent: {}
+[72.484296] (-) TimerEvent: {}
+[72.585212] (-) TimerEvent: {}
+[72.686104] (-) TimerEvent: {}
+[72.787017] (-) TimerEvent: {}
+[72.887877] (-) TimerEvent: {}
+[72.988743] (-) TimerEvent: {}
+[73.089617] (-) TimerEvent: {}
+[73.190500] (-) TimerEvent: {}
+[73.291372] (-) TimerEvent: {}
+[73.392253] (-) TimerEvent: {}
+[73.493165] (-) TimerEvent: {}
+[73.594087] (-) TimerEvent: {}
+[73.695004] (-) TimerEvent: {}
+[73.795860] (-) TimerEvent: {}
+[73.896728] (-) TimerEvent: {}
+[73.997660] (-) TimerEvent: {}
+[74.098524] (-) TimerEvent: {}
+[74.199402] (-) TimerEvent: {}
+[74.300260] (-) TimerEvent: {}
+[74.401117] (-) TimerEvent: {}
+[74.501972] (-) TimerEvent: {}
+[74.602853] (-) TimerEvent: {}
+[74.703729] (-) TimerEvent: {}
+[74.804606] (-) TimerEvent: {}
+[74.905486] (-) TimerEvent: {}
+[75.006371] (-) TimerEvent: {}
+[75.107293] (-) TimerEvent: {}
+[75.208163] (-) TimerEvent: {}
+[75.309033] (-) TimerEvent: {}
+[75.409904] (-) TimerEvent: {}
+[75.510790] (-) TimerEvent: {}
+[75.611713] (-) TimerEvent: {}
+[75.712607] (-) TimerEvent: {}
+[75.813461] (-) TimerEvent: {}
+[75.914354] (-) TimerEvent: {}
+[76.015245] (-) TimerEvent: {}
+[76.116105] (-) TimerEvent: {}
+[76.217076] (-) TimerEvent: {}
+[76.317930] (-) TimerEvent: {}
+[76.418798] (-) TimerEvent: {}
+[76.519690] (-) TimerEvent: {}
+[76.620598] (-) TimerEvent: {}
+[76.721517] (-) TimerEvent: {}
+[76.822407] (-) TimerEvent: {}
+[76.923287] (-) TimerEvent: {}
+[77.024152] (-) TimerEvent: {}
+[77.125040] (-) TimerEvent: {}
+[77.225912] (-) TimerEvent: {}
+[77.326788] (-) TimerEvent: {}
+[77.427676] (-) TimerEvent: {}
+[77.528519] (-) TimerEvent: {}
+[77.629372] (-) TimerEvent: {}
+[77.730240] (-) TimerEvent: {}
+[77.831119] (-) TimerEvent: {}
+[77.931983] (-) TimerEvent: {}
+[78.032825] (-) TimerEvent: {}
+[78.133672] (-) TimerEvent: {}
+[78.234519] (-) TimerEvent: {}
+[78.335358] (-) TimerEvent: {}
+[78.436186] (-) TimerEvent: {}
+[78.537079] (-) TimerEvent: {}
+[78.637976] (-) TimerEvent: {}
+[78.738846] (-) TimerEvent: {}
+[78.839710] (-) TimerEvent: {}
+[78.940554] (-) TimerEvent: {}
+[79.041411] (-) TimerEvent: {}
+[79.142263] (-) TimerEvent: {}
+[79.243125] (-) TimerEvent: {}
+[79.343972] (-) TimerEvent: {}
+[79.444828] (-) TimerEvent: {}
+[79.545684] (-) TimerEvent: {}
+[79.646535] (-) TimerEvent: {}
+[79.747422] (-) TimerEvent: {}
+[79.848293] (-) TimerEvent: {}
+[79.949150] (-) TimerEvent: {}
+[80.050013] (-) TimerEvent: {}
+[80.150888] (-) TimerEvent: {}
+[80.251756] (-) TimerEvent: {}
+[80.352636] (-) TimerEvent: {}
+[80.453515] (-) TimerEvent: {}
+[80.554378] (-) TimerEvent: {}
+[80.655246] (-) TimerEvent: {}
+[80.756164] (-) TimerEvent: {}
+[80.857103] (-) TimerEvent: {}
+[80.957978] (-) TimerEvent: {}
+[81.058839] (-) TimerEvent: {}
+[81.159721] (-) TimerEvent: {}
+[81.260607] (-) TimerEvent: {}
+[81.361506] (-) TimerEvent: {}
+[81.462411] (-) TimerEvent: {}
+[81.563310] (-) TimerEvent: {}
+[81.664192] (-) TimerEvent: {}
+[81.765089] (-) TimerEvent: {}
+[81.865973] (-) TimerEvent: {}
+[81.966849] (-) TimerEvent: {}
+[82.067764] (-) TimerEvent: {}
+[82.168616] (-) TimerEvent: {}
+[82.269491] (-) TimerEvent: {}
+[82.370374] (-) TimerEvent: {}
+[82.471254] (-) TimerEvent: {}
+[82.572119] (-) TimerEvent: {}
+[82.673002] (-) TimerEvent: {}
+[82.773877] (-) TimerEvent: {}
+[82.874727] (-) TimerEvent: {}
+[82.975584] (-) TimerEvent: {}
+[83.076428] (-) TimerEvent: {}
+[83.177331] (-) TimerEvent: {}
+[83.278174] (-) TimerEvent: {}
+[83.379049] (-) TimerEvent: {}
+[83.479947] (-) TimerEvent: {}
+[83.580873] (-) TimerEvent: {}
+[83.681799] (-) TimerEvent: {}
+[83.782688] (-) TimerEvent: {}
+[83.883552] (-) TimerEvent: {}
+[83.984421] (-) TimerEvent: {}
+[84.085269] (-) TimerEvent: {}
+[84.186124] (-) TimerEvent: {}
+[84.287026] (-) TimerEvent: {}
+[84.387893] (-) TimerEvent: {}
+[84.488784] (-) TimerEvent: {}
+[84.589679] (-) TimerEvent: {}
+[84.690573] (-) TimerEvent: {}
+[84.791452] (-) TimerEvent: {}
+[84.892324] (-) TimerEvent: {}
+[84.993176] (-) TimerEvent: {}
+[85.094025] (-) TimerEvent: {}
+[85.194877] (-) TimerEvent: {}
+[85.295724] (-) TimerEvent: {}
+[85.396609] (-) TimerEvent: {}
+[85.497570] (-) TimerEvent: {}
+[85.598435] (-) TimerEvent: {}
+[85.699286] (-) TimerEvent: {}
+[85.800139] (-) TimerEvent: {}
+[85.901038] (-) TimerEvent: {}
+[86.001960] (-) TimerEvent: {}
+[86.102886] (-) TimerEvent: {}
+[86.203763] (-) TimerEvent: {}
+[86.304643] (-) TimerEvent: {}
+[86.405545] (-) TimerEvent: {}
+[86.506431] (-) TimerEvent: {}
+[86.607365] (-) TimerEvent: {}
+[86.708228] (-) TimerEvent: {}
+[86.809102] (-) TimerEvent: {}
+[86.909978] (-) TimerEvent: {}
+[87.010838] (-) TimerEvent: {}
+[87.111707] (-) TimerEvent: {}
+[87.212566] (-) TimerEvent: {}
+[87.313453] (-) TimerEvent: {}
+[87.414335] (-) TimerEvent: {}
+[87.515207] (-) TimerEvent: {}
+[87.616069] (-) TimerEvent: {}
+[87.716917] (-) TimerEvent: {}
+[87.817828] (-) TimerEvent: {}
+[87.918679] (-) TimerEvent: {}
+[88.019522] (-) TimerEvent: {}
+[88.120364] (-) TimerEvent: {}
+[88.221212] (-) TimerEvent: {}
+[88.322077] (-) TimerEvent: {}
+[88.422936] (-) TimerEvent: {}
+[88.523804] (-) TimerEvent: {}
+[88.624705] (-) TimerEvent: {}
+[88.725615] (-) TimerEvent: {}
+[88.826480] (-) TimerEvent: {}
+[88.927386] (-) TimerEvent: {}
+[89.028224] (-) TimerEvent: {}
+[89.129065] (-) TimerEvent: {}
+[89.229904] (-) TimerEvent: {}
+[89.330782] (-) TimerEvent: {}
+[89.431640] (-) TimerEvent: {}
+[89.532564] (-) TimerEvent: {}
+[89.633436] (-) TimerEvent: {}
+[89.734305] (-) TimerEvent: {}
+[89.835175] (-) TimerEvent: {}
+[89.936045] (-) TimerEvent: {}
+[90.036908] (-) TimerEvent: {}
+[90.137788] (-) TimerEvent: {}
+[90.238649] (-) TimerEvent: {}
+[90.339532] (-) TimerEvent: {}
+[90.440416] (-) TimerEvent: {}
+[90.541283] (-) TimerEvent: {}
+[90.642149] (-) TimerEvent: {}
+[90.743039] (-) TimerEvent: {}
+[90.843977] (-) TimerEvent: {}
+[90.944860] (-) TimerEvent: {}
+[91.045759] (-) TimerEvent: {}
+[91.146639] (-) TimerEvent: {}
+[91.247577] (-) TimerEvent: {}
+[91.348476] (-) TimerEvent: {}
+[91.449359] (-) TimerEvent: {}
+[91.550250] (-) TimerEvent: {}
+[91.651127] (-) TimerEvent: {}
+[91.752008] (-) TimerEvent: {}
+[91.852892] (-) TimerEvent: {}
+[91.953774] (-) TimerEvent: {}
+[92.054659] (-) TimerEvent: {}
+[92.155536] (-) TimerEvent: {}
+[92.256391] (-) TimerEvent: {}
+[92.357306] (-) TimerEvent: {}
+[92.458204] (-) TimerEvent: {}
+[92.559076] (-) TimerEvent: {}
+[92.659954] (-) TimerEvent: {}
+[92.760828] (-) TimerEvent: {}
+[92.861720] (-) TimerEvent: {}
+[92.962599] (-) TimerEvent: {}
+[93.063455] (-) TimerEvent: {}
+[93.164313] (-) TimerEvent: {}
+[93.265179] (-) TimerEvent: {}
+[93.366052] (-) TimerEvent: {}
+[93.466980] (-) TimerEvent: {}
+[93.567870] (-) TimerEvent: {}
+[93.668752] (-) TimerEvent: {}
+[93.769629] (-) TimerEvent: {}
+[93.870461] (-) TimerEvent: {}
+[93.971281] (-) TimerEvent: {}
+[94.072082] (-) TimerEvent: {}
+[94.172893] (-) TimerEvent: {}
+[94.273725] (-) TimerEvent: {}
+[94.374586] (-) TimerEvent: {}
+[94.475475] (-) TimerEvent: {}
+[94.576355] (-) TimerEvent: {}
+[94.677255] (-) TimerEvent: {}
+[94.778119] (-) TimerEvent: {}
+[94.878981] (-) TimerEvent: {}
+[94.979833] (-) TimerEvent: {}
+[95.080704] (-) TimerEvent: {}
+[95.181586] (-) TimerEvent: {}
+[95.282455] (-) TimerEvent: {}
+[95.383348] (-) TimerEvent: {}
+[95.484310] (-) TimerEvent: {}
+[95.585232] (-) TimerEvent: {}
+[95.686143] (-) TimerEvent: {}
+[95.787056] (-) TimerEvent: {}
+[95.887921] (-) TimerEvent: {}
+[95.988801] (-) TimerEvent: {}
+[96.089689] (-) TimerEvent: {}
+[96.190616] (-) TimerEvent: {}
+[96.291502] (-) TimerEvent: {}
+[96.392358] (-) TimerEvent: {}
+[96.493261] (-) TimerEvent: {}
+[96.594170] (-) TimerEvent: {}
+[96.695063] (-) TimerEvent: {}
+[96.795934] (-) TimerEvent: {}
+[96.896811] (-) TimerEvent: {}
+[96.997718] (-) TimerEvent: {}
+[97.098608] (-) TimerEvent: {}
+[97.199487] (-) TimerEvent: {}
+[97.300337] (-) TimerEvent: {}
+[97.401191] (-) TimerEvent: {}
+[97.502097] (-) TimerEvent: {}
+[97.602959] (-) TimerEvent: {}
+[97.703832] (-) TimerEvent: {}
+[97.804691] (-) TimerEvent: {}
+[97.905532] (-) TimerEvent: {}
+[98.006400] (-) TimerEvent: {}
+[98.107316] (-) TimerEvent: {}
+[98.208192] (-) TimerEvent: {}
+[98.309061] (-) TimerEvent: {}
+[98.409949] (-) TimerEvent: {}
+[98.510823] (-) TimerEvent: {}
+[98.611709] (-) TimerEvent: {}
+[98.712630] (-) TimerEvent: {}
+[98.813513] (-) TimerEvent: {}
+[98.914392] (-) TimerEvent: {}
+[99.015260] (-) TimerEvent: {}
+[99.116127] (-) TimerEvent: {}
+[99.217059] (-) TimerEvent: {}
+[99.317950] (-) TimerEvent: {}
+[99.418831] (-) TimerEvent: {}
+[99.519695] (-) TimerEvent: {}
+[99.620570] (-) TimerEvent: {}
+[99.721454] (-) TimerEvent: {}
+[99.822311] (-) TimerEvent: {}
+[99.923186] (-) TimerEvent: {}
+[100.024029] (-) TimerEvent: {}
+[100.124926] (-) TimerEvent: {}
+[100.225825] (-) TimerEvent: {}
+[100.326750] (-) TimerEvent: {}
+[100.427753] (-) TimerEvent: {}
+[100.528625] (-) TimerEvent: {}
+[100.629500] (-) TimerEvent: {}
+[100.730365] (-) TimerEvent: {}
+[100.831252] (-) TimerEvent: {}
+[100.932147] (-) TimerEvent: {}
+[101.033016] (-) TimerEvent: {}
+[101.133898] (-) TimerEvent: {}
+[101.234776] (-) TimerEvent: {}
+[101.335659] (-) TimerEvent: {}
+[101.436515] (-) TimerEvent: {}
+[101.537424] (-) TimerEvent: {}
+[101.638298] (-) TimerEvent: {}
+[101.739178] (-) TimerEvent: {}
+[101.840038] (-) TimerEvent: {}
+[101.940913] (-) TimerEvent: {}
+[102.041752] (-) TimerEvent: {}
+[102.142612] (-) TimerEvent: {}
+[102.243481] (-) TimerEvent: {}
+[102.344361] (-) TimerEvent: {}
+[102.445239] (-) TimerEvent: {}
+[102.546128] (-) TimerEvent: {}
+[102.647021] (-) TimerEvent: {}
+[102.747927] (-) TimerEvent: {}
+[102.848793] (-) TimerEvent: {}
+[102.949641] (-) TimerEvent: {}
+[103.050490] (-) TimerEvent: {}
+[103.151346] (-) TimerEvent: {}
+[103.252218] (-) TimerEvent: {}
+[103.353139] (-) TimerEvent: {}
+[103.454050] (-) TimerEvent: {}
+[103.554920] (-) TimerEvent: {}
+[103.655817] (-) TimerEvent: {}
+[103.756740] (-) TimerEvent: {}
+[103.857698] (-) TimerEvent: {}
+[103.958592] (-) TimerEvent: {}
+[104.059468] (-) TimerEvent: {}
+[104.160333] (-) TimerEvent: {}
+[104.261184] (-) TimerEvent: {}
+[104.362088] (-) TimerEvent: {}
+[104.463003] (-) TimerEvent: {}
+[104.563893] (-) TimerEvent: {}
+[104.664784] (-) TimerEvent: {}
+[104.765678] (-) TimerEvent: {}
+[104.866594] (-) TimerEvent: {}
+[104.967577] (-) TimerEvent: {}
+[105.068452] (-) TimerEvent: {}
+[105.169373] (-) TimerEvent: {}
+[105.270290] (-) TimerEvent: {}
+[105.371171] (-) TimerEvent: {}
+[105.472062] (-) TimerEvent: {}
+[105.572928] (-) TimerEvent: {}
+[105.673784] (-) TimerEvent: {}
+[105.774650] (-) TimerEvent: {}
+[105.875519] (-) TimerEvent: {}
+[105.976395] (-) TimerEvent: {}
+[106.077287] (-) TimerEvent: {}
+[106.178151] (-) TimerEvent: {}
+[106.279024] (-) TimerEvent: {}
+[106.379875] (-) TimerEvent: {}
+[106.480689] (-) TimerEvent: {}
+[106.581483] (-) TimerEvent: {}
+[106.682281] (-) TimerEvent: {}
+[106.783091] (-) TimerEvent: {}
+[106.883906] (-) TimerEvent: {}
+[106.984751] (-) TimerEvent: {}
+[107.085576] (-) TimerEvent: {}
+[107.186394] (-) TimerEvent: {}
+[107.287244] (-) TimerEvent: {}
+[107.388039] (-) TimerEvent: {}
+[107.488860] (-) TimerEvent: {}
+[107.589658] (-) TimerEvent: {}
+[107.690458] (-) TimerEvent: {}
+[107.791269] (-) TimerEvent: {}
+[107.892070] (-) TimerEvent: {}
+[107.992865] (-) TimerEvent: {}
+[108.093670] (-) TimerEvent: {}
+[108.194493] (-) TimerEvent: {}
+[108.295283] (-) TimerEvent: {}
+[108.396133] (-) TimerEvent: {}
+[108.497027] (-) TimerEvent: {}
+[108.597871] (-) TimerEvent: {}
+[108.698724] (-) TimerEvent: {}
+[108.799591] (-) TimerEvent: {}
+[108.900421] (-) TimerEvent: {}
+[109.001251] (-) TimerEvent: {}
+[109.102085] (-) TimerEvent: {}
+[109.202906] (-) TimerEvent: {}
+[109.303739] (-) TimerEvent: {}
+[109.404539] (-) TimerEvent: {}
+[109.505382] (-) TimerEvent: {}
+[109.606228] (-) TimerEvent: {}
+[109.707108] (-) TimerEvent: {}
+[109.807944] (-) TimerEvent: {}
+[109.908776] (-) TimerEvent: {}
+[110.009598] (-) TimerEvent: {}
+[110.110427] (-) TimerEvent: {}
+[110.211271] (-) TimerEvent: {}
+[110.312091] (-) TimerEvent: {}
+[110.412917] (-) TimerEvent: {}
+[110.513707] (-) TimerEvent: {}
+[110.614513] (-) TimerEvent: {}
+[110.715337] (-) TimerEvent: {}
+[110.816166] (-) TimerEvent: {}
+[110.917037] (-) TimerEvent: {}
+[111.017832] (-) TimerEvent: {}
+[111.118646] (-) TimerEvent: {}
+[111.219481] (-) TimerEvent: {}
+[111.320328] (-) TimerEvent: {}
+[111.421157] (-) TimerEvent: {}
+[111.521996] (-) TimerEvent: {}
+[111.622855] (-) TimerEvent: {}
+[111.723712] (-) TimerEvent: {}
+[111.824561] (-) TimerEvent: {}
+[111.925399] (-) TimerEvent: {}
+[112.026211] (-) TimerEvent: {}
+[112.127057] (-) TimerEvent: {}
+[112.227871] (-) TimerEvent: {}
+[112.328701] (-) TimerEvent: {}
+[112.429562] (-) TimerEvent: {}
+[112.530479] (-) TimerEvent: {}
+[112.631338] (-) TimerEvent: {}
+[112.732186] (-) TimerEvent: {}
+[112.833021] (-) TimerEvent: {}
+[112.933863] (-) TimerEvent: {}
+[113.034706] (-) TimerEvent: {}
+[113.135541] (-) TimerEvent: {}
+[113.236368] (-) TimerEvent: {}
+[113.337250] (-) TimerEvent: {}
+[113.438102] (-) TimerEvent: {}
+[113.538943] (-) TimerEvent: {}
+[113.639836] (-) TimerEvent: {}
+[113.740732] (-) TimerEvent: {}
+[113.841612] (-) TimerEvent: {}
+[113.942460] (-) TimerEvent: {}
+[114.043289] (-) TimerEvent: {}
+[114.144112] (-) TimerEvent: {}
+[114.244943] (-) TimerEvent: {}
+[114.345803] (-) TimerEvent: {}
+[114.446657] (-) TimerEvent: {}
+[114.547546] (-) TimerEvent: {}
+[114.648402] (-) TimerEvent: {}
+[114.749240] (-) TimerEvent: {}
+[114.850074] (-) TimerEvent: {}
+[114.950911] (-) TimerEvent: {}
+[115.051734] (-) TimerEvent: {}
+[115.152574] (-) TimerEvent: {}
+[115.253410] (-) TimerEvent: {}
+[115.354284] (-) TimerEvent: {}
+[115.455143] (-) TimerEvent: {}
+[115.556001] (-) TimerEvent: {}
+[115.656898] (-) TimerEvent: {}
+[115.757751] (-) TimerEvent: {}
+[115.858584] (-) TimerEvent: {}
+[115.959413] (-) TimerEvent: {}
+[116.060275] (-) TimerEvent: {}
+[116.161183] (-) TimerEvent: {}
+[116.262063] (-) TimerEvent: {}
+[116.362990] (-) TimerEvent: {}
+[116.463892] (-) TimerEvent: {}
+[116.564749] (-) TimerEvent: {}
+[116.665592] (-) TimerEvent: {}
+[116.766464] (-) TimerEvent: {}
+[116.867425] (-) TimerEvent: {}
+[116.968362] (-) TimerEvent: {}
+[117.069267] (-) TimerEvent: {}
+[117.170133] (-) TimerEvent: {}
+[117.270996] (-) TimerEvent: {}
+[117.371915] (-) TimerEvent: {}
+[117.472862] (-) TimerEvent: {}
+[117.509377] (drive_motor) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable drive_motor_node\x1b[0m\n'}
+[117.573054] (-) TimerEvent: {}
+[117.674004] (-) TimerEvent: {}
+[117.774892] (-) TimerEvent: {}
+[117.875823] (-) TimerEvent: {}
+[117.976738] (-) TimerEvent: {}
+[118.077680] (-) TimerEvent: {}
+[118.178582] (-) TimerEvent: {}
+[118.279522] (-) TimerEvent: {}
+[118.380488] (-) TimerEvent: {}
+[118.481440] (-) TimerEvent: {}
+[118.582329] (-) TimerEvent: {}
+[118.683262] (-) TimerEvent: {}
+[118.784247] (-) TimerEvent: {}
+[118.885345] (-) TimerEvent: {}
+[118.986323] (-) TimerEvent: {}
+[119.087263] (-) TimerEvent: {}
+[119.188234] (-) TimerEvent: {}
+[119.289153] (-) TimerEvent: {}
+[119.390071] (-) TimerEvent: {}
+[119.490981] (-) TimerEvent: {}
+[119.591889] (-) TimerEvent: {}
+[119.692888] (-) TimerEvent: {}
+[119.793850] (-) TimerEvent: {}
+[119.894769] (-) TimerEvent: {}
+[119.995656] (-) TimerEvent: {}
+[120.096629] (-) TimerEvent: {}
+[120.197650] (-) TimerEvent: {}
+[120.298662] (-) TimerEvent: {}
+[120.399516] (-) TimerEvent: {}
+[120.500387] (-) TimerEvent: {}
+[120.601336] (-) TimerEvent: {}
+[120.654208] (drive_motor) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[120.690320] (drive_motor) StdoutLine: {'line': b'[100%] Built target drive_motor_node\n'}
+[120.701511] (-) TimerEvent: {}
+[120.750330] (drive_motor) CommandEnded: {'returncode': 0}
+[120.754510] (drive_motor) JobProgress: {'identifier': 'drive_motor', 'progress': 'install'}
+[120.756320] (drive_motor) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/drive_motor'], 'cwd': '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/drive_motor', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1602'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/src'), ('DESKTOP_SESSION', 'xfce'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sunrise'), ('WINDOWID', '52428803'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sunrise/.local/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.local/bin:/home/sunrise/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1231,unix/ubuntu:/tmp/.ICE-unix/1231'), ('GDM_LANG', 'en'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/sunrise/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXb3GBER/agent.1596'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/sunrise'), ('AMENT_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces:/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'xfce'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/drive_motor'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share'), ('PYTHONPATH', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages:/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces:/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble')]), 'shell': False}
+[120.801735] (-) TimerEvent: {}
+[120.802589] (drive_motor) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[120.803422] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/lib/libdrive_motor_core.so\n'}
+[120.807143] (drive_motor) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/lib/libdrive_motor_core.so" to ""\n'}
+[120.807910] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/lib/drive_motor/drive_motor_node\n'}
+[120.830915] (drive_motor) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/lib/drive_motor/drive_motor_node" to ""\n'}
+[120.832394] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/include/drive_motor\n'}
+[120.833305] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/include/drive_motor/drive_motor\n'}
+[120.833935] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/include/drive_motor/drive_motor/motor_hw.hpp\n'}
+[120.834608] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/include/drive_motor/drive_motor/motor_base.hpp\n'}
+[120.835134] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/include/drive_motor/drive_motor/can_bridge.hpp\n'}
+[120.835636] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/include/drive_motor/drive_motor/motor_group.hpp\n'}
+[120.836259] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor\n'}
+[120.836857] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/drive_motor.launch.py\n'}
+[120.837920] (drive_motor) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor\n'}
+[120.838620] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/pi_plus_lower_body.yaml\n'}
+[120.839363] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/single_motor.yaml\n'}
+[120.840007] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/environment/library_path.sh\n'}
+[120.840831] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/environment/library_path.dsv\n'}
+[120.841720] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/ament_index/resource_index/package_run_dependencies/drive_motor\n'}
+[120.842605] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/ament_index/resource_index/parent_prefix_path/drive_motor\n'}
+[120.843449] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/environment/ament_prefix_path.sh\n'}
+[120.844146] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/environment/ament_prefix_path.dsv\n'}
+[120.844775] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/environment/path.sh\n'}
+[120.845409] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/environment/path.dsv\n'}
+[120.845964] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/local_setup.bash\n'}
+[120.846496] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/local_setup.sh\n'}
+[120.847160] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/local_setup.zsh\n'}
+[120.847666] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/local_setup.dsv\n'}
+[120.848202] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/package.dsv\n'}
+[120.848940] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/ament_index/resource_index/packages/drive_motor\n'}
+[120.849752] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/cmake/drive_motorTargetsExport.cmake\n'}
+[120.850408] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/cmake/drive_motorTargetsExport-noconfig.cmake\n'}
+[120.851016] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[120.851590] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[120.852131] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/cmake/drive_motorConfig.cmake\n'}
+[120.852662] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/cmake/drive_motorConfig-version.cmake\n'}
+[120.853128] (drive_motor) StdoutLine: {'line': b'-- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/package.xml\n'}
+[120.859911] (drive_motor) CommandEnded: {'returncode': 0}
+[120.902229] (-) TimerEvent: {}
+[120.972201] (drive_motor) JobEnded: {'identifier': 'drive_motor', 'rc': 0}
+[120.975287] (-) EventReactorShutdown: {}

@@ -1,0 +1,104 @@
+[0.035s] Invoking command in '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/drive_motor': AMENT_PREFIX_PATH=/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces:/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/src/drive_motor -DCMAKE_INSTALL_PREFIX=/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor
+[0.332s] -- The C compiler identification is GNU 11.2.0
+[0.651s] -- The CXX compiler identification is GNU 11.2.0
+[0.688s] -- Detecting C compiler ABI info
+[1.052s] -- Detecting C compiler ABI info - done
+[1.114s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.115s] -- Detecting C compile features
+[1.117s] -- Detecting C compile features - done
+[1.131s] -- Detecting CXX compiler ABI info
+[1.537s] -- Detecting CXX compiler ABI info - done
+[1.622s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.623s] -- Detecting CXX compile features
+[1.625s] -- Detecting CXX compile features - done
+[1.634s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.826s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.379s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[4.577s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.600s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.638s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.699s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.778s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.018s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.032s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.456s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.581s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.752s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.793s] -- Looking for pthread.h
+[6.171s] -- Looking for pthread.h - found
+[6.174s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.627s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.639s] -- Found Threads: TRUE  
+[7.004s] -- Found motor_interfaces: 0.1.0 (/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/cmake)
+[7.451s] -- Configuring done
+[7.511s] -- Generating done
+[7.535s] -- Build files have been written to: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/drive_motor
+[7.598s] Invoked command in '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/drive_motor' returned '0': AMENT_PREFIX_PATH=/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces:/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/src/drive_motor -DCMAKE_INSTALL_PREFIX=/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor
+[7.614s] Invoking command in '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/drive_motor': AMENT_PREFIX_PATH=/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces:/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/drive_motor -- -j8 -l8
+[7.724s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.492s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[8.626s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.640s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.670s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.725s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.791s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.964s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.970s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.398s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.668s] -- Found motor_interfaces: 0.1.0 (/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/share/motor_interfaces/cmake)
+[10.108s] -- Configuring done
+[10.166s] -- Generating done
+[10.190s] -- Build files have been written to: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/drive_motor
+[10.339s] gmake[2]: Warning: File '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/src/drive_motor/src/motor_base.cpp' has modification time 835262234 s in the future
+[10.373s] [ 57%] [32mBuilding CXX object CMakeFiles/drive_motor_core.dir/src/motor_group.cpp.o[0m
+[10.373s] [ 57%] [32mBuilding CXX object CMakeFiles/drive_motor_core.dir/src/motor_hw.cpp.o[0m
+[10.374s] [ 57%] [32mBuilding CXX object CMakeFiles/drive_motor_core.dir/src/motor_base.cpp.o[0m
+[10.374s] [ 57%] [32mBuilding CXX object CMakeFiles/drive_motor_core.dir/src/can_bridge.cpp.o[0m
+[27.798s] [ 71%] [32m[1mLinking CXX shared library libdrive_motor_core.so[0m
+[28.589s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[28.623s] [ 71%] Built target drive_motor_core
+[28.688s] gmake[2]: Warning: File '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/src/drive_motor/src/drive_motor_node.cpp' has modification time 835262216 s in the future
+[28.722s] [ 85%] [32mBuilding CXX object CMakeFiles/drive_motor_node.dir/src/drive_motor_node.cpp.o[0m
+[79.125s] [100%] [32m[1mLinking CXX executable drive_motor_node[0m
+[82.270s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[82.305s] [100%] Built target drive_motor_node
+[82.366s] Invoked command in '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/drive_motor' returned '0': AMENT_PREFIX_PATH=/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces:/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/drive_motor -- -j8 -l8
+[82.376s] Invoking command in '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/drive_motor': AMENT_PREFIX_PATH=/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces:/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/drive_motor
+[82.418s] -- Install configuration: ""
+[82.418s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/lib/libdrive_motor_core.so
+[82.422s] -- Set runtime path of "/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/lib/libdrive_motor_core.so" to ""
+[82.423s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/lib/drive_motor/drive_motor_node
+[82.446s] -- Set runtime path of "/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/lib/drive_motor/drive_motor_node" to ""
+[82.448s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/include/drive_motor
+[82.448s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/include/drive_motor/drive_motor
+[82.449s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/include/drive_motor/drive_motor/motor_hw.hpp
+[82.449s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/include/drive_motor/drive_motor/motor_base.hpp
+[82.450s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/include/drive_motor/drive_motor/can_bridge.hpp
+[82.451s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/include/drive_motor/drive_motor/motor_group.hpp
+[82.451s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor
+[82.452s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/drive_motor.launch.py
+[82.453s] -- Up-to-date: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor
+[82.454s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/pi_plus_lower_body.yaml
+[82.454s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/single_motor.yaml
+[82.455s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/environment/library_path.sh
+[82.456s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/environment/library_path.dsv
+[82.457s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/ament_index/resource_index/package_run_dependencies/drive_motor
+[82.458s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/ament_index/resource_index/parent_prefix_path/drive_motor
+[82.458s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/environment/ament_prefix_path.sh
+[82.459s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/environment/ament_prefix_path.dsv
+[82.460s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/environment/path.sh
+[82.460s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/environment/path.dsv
+[82.461s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/local_setup.bash
+[82.461s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/local_setup.sh
+[82.462s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/local_setup.zsh
+[82.462s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/local_setup.dsv
+[82.463s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/package.dsv
+[82.464s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/ament_index/resource_index/packages/drive_motor
+[82.465s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/cmake/drive_motorTargetsExport.cmake
+[82.465s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/cmake/drive_motorTargetsExport-noconfig.cmake
+[82.466s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/cmake/ament_cmake_export_targets-extras.cmake
+[82.466s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/cmake/ament_cmake_export_dependencies-extras.cmake
+[82.467s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/cmake/drive_motorConfig.cmake
+[82.467s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/cmake/drive_motorConfig-version.cmake
+[82.468s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/drive_motor/share/drive_motor/package.xml
+[82.478s] Invoked command in '/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/drive_motor' returned '0': AMENT_PREFIX_PATH=/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces:/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/install/motor_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/drive_motor

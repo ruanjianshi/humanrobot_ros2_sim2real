@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+../../build/sim2real/sim2real.egg-info/PKG-INFO
+../../build/sim2real/sim2real.egg-info/SOURCES.txt
+../../build/sim2real/sim2real.egg-info/dependency_links.txt
+../../build/sim2real/sim2real.egg-info/entry_points.txt
+../../build/sim2real/sim2real.egg-info/requires.txt
+../../build/sim2real/sim2real.egg-info/top_level.txt
+../../build/sim2real/sim2real.egg-info/zip-safe
+resource/sim2real
+sim2real/__init__.py
+sim2real/inference.py
+sim2real/test_onnx.py

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6a59a20d4f7907ed55d5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "drive_motor",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_motor_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_motor_core-cf6abfb4cd408a251168.json",
+					"name" : "drive_motor_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_motor_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_motor_node-99c5cb7fd1706297733e.json",
+					"name" : "drive_motor_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_motor_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_motor_uninstall-e7ccc4f31c048b241349.json",
+					"name" : "drive_motor_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-752fa8e16391e2a0df90.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/build/drive_motor",
+		"source" : "/home/sunrise/Desktop/ros2_simreal_ws/src/drive_motor/motor/src/drive_motor"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,129 @@
+[0.053s] Invoking command in '/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1': CMAKE_PREFIX_PATH=/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble /usr/bin/cmake /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example -DCMAKE_INSTALL_PREFIX=/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1
+[0.246s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.067s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.246s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.265s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.304s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.371s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.454s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.666s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.676s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.139s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.545s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.729s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[2.788s] -- Found tf2: 0.25.15 (/opt/ros/humble/share/tf2/cmake)
+[2.833s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.328s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.339s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.340s] -- Configured cppcheck include dirs: 
+[3.341s] -- Configured cppcheck exclude dirs and/or files: 
+[3.346s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.347s] -- Configured cpplint exclude dirs and/or files: 
+[3.349s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.353s] -- Added test 'lint_cmake' to check CMake code style
+[3.356s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.360s] -- Added test 'uncrustify' to check C / C++ code style
+[3.361s] -- Configured uncrustify additional arguments: 
+[3.363s] -- Added test 'xmllint' to check XML markup files
+[3.371s] -- Configuring done
+[3.497s] -- Generating done
+[3.536s] -- Build files have been written to: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1
+[3.596s] Invoked command in '/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1' returned '0': CMAKE_PREFIX_PATH=/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble /usr/bin/cmake /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example -DCMAKE_INSTALL_PREFIX=/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1
+[3.611s] Invoking command in '/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1': CMAKE_PREFIX_PATH=/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1 -- -j8 -l8
+[3.727s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.486s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[4.619s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.633s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.665s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.718s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.787s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.960s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.967s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.398s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.663s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.825s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[5.872s] -- Found tf2: 0.25.15 (/opt/ros/humble/share/tf2/cmake)
+[5.910s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.308s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.312s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.313s] -- Configured cppcheck include dirs: 
+[6.314s] -- Configured cppcheck exclude dirs and/or files: 
+[6.317s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.317s] -- Configured cpplint exclude dirs and/or files: 
+[6.318s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.320s] -- Added test 'lint_cmake' to check CMake code style
+[6.322s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.325s] -- Added test 'uncrustify' to check C / C++ code style
+[6.326s] -- Configured uncrustify additional arguments: 
+[6.327s] -- Added test 'xmllint' to check XML markup files
+[6.331s] -- Configuring done
+[6.413s] -- Generating done
+[6.449s] -- Build files have been written to: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1
+[6.563s] gmake[2]: Warning: File 'CMakeFiles/lpms_si1_node.dir/flags.make' has modification time 835690293 s in the future
+[6.564s] gmake[2]: Warning: File 'CMakeFiles/quat_to_euler_node.dir/flags.make' has modification time 835690293 s in the future
+[6.565s] gmake[2]: Warning: File 'CMakeFiles/imudata_rad_to_deg_node.dir/flags.make' has modification time 835690293 s in the future
+[6.600s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.601s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.602s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.607s] gmake[2]: Warning: File 'CMakeFiles/quat_to_euler_node.dir/flags.make' has modification time 835690293 s in the future
+[6.607s] gmake[2]: Warning: File 'CMakeFiles/lpms_si1_node.dir/flags.make' has modification time 835690293 s in the future
+[6.608s] gmake[2]: Warning: File 'CMakeFiles/imudata_rad_to_deg_node.dir/flags.make' has modification time 835690293 s in the future
+[6.639s] [ 50%] [32mBuilding CXX object CMakeFiles/imudata_rad_to_deg_node.dir/src/imudata_rad_to_deg_node.cpp.o[0m
+[6.640s] [ 50%] [32mBuilding CXX object CMakeFiles/lpms_si1_node.dir/src/lpms_si1_node.cpp.o[0m
+[6.640s] [ 50%] [32mBuilding CXX object CMakeFiles/quat_to_euler_node.dir/src/quat_to_euler_node.cpp.o[0m
+[22.847s] [01m[K/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example/src/lpms_si1_node.cpp:[m[K In member function ‘[01m[Kbool LpSI1Proxy::resetHeading(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K’:
+[22.847s] [01m[K/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example/src/lpms_si1_node.cpp:277:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.848s]   277 |         [01;35m[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> req[m[K,
+[22.848s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[22.852s] [01m[K/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example/src/lpms_si1_node.cpp:[m[K In member function ‘[01m[Kbool LpSI1Proxy::calibrateGyroscope(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K’:
+[22.853s] [01m[K/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example/src/lpms_si1_node.cpp:292:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.853s]   292 |         [01;35m[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> req[m[K,
+[22.854s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[22.855s] [01m[K/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example/src/lpms_si1_node.cpp:[m[K In member function ‘[01m[Kbool LpSI1Proxy::getImuData(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K’:
+[22.855s] [01m[K/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example/src/lpms_si1_node.cpp:307:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.856s]   307 |         [01;35m[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> req[m[K,
+[22.856s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[22.857s] [01m[K/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example/src/lpms_si1_node.cpp:[m[K In member function ‘[01m[Kbool LpSI1Proxy::setStreamingMode(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K’:
+[22.858s] [01m[K/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example/src/lpms_si1_node.cpp:319:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.858s]   319 |         [01;35m[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> req[m[K,
+[22.859s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[22.859s] [01m[K/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example/src/lpms_si1_node.cpp:[m[K In member function ‘[01m[Kbool LpSI1Proxy::setCommandMode(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K’:
+[22.860s] [01m[K/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example/src/lpms_si1_node.cpp:329:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.860s]   329 |         [01;35m[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> req[m[K,
+[22.861s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[46.907s] [ 66%] [32m[1mLinking CXX executable lpms_si1_node[0m
+[49.496s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[49.530s] [ 66%] Built target lpms_si1_node
+[60.461s] [ 83%] [32m[1mLinking CXX executable quat_to_euler_node[0m
+[60.661s] [100%] [32m[1mLinking CXX executable imudata_rad_to_deg_node[0m
+[63.892s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[63.925s] [100%] Built target quat_to_euler_node
+[64.092s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[64.127s] [100%] Built target imudata_rad_to_deg_node
+[64.199s] Invoked command in '/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1' returned '0': CMAKE_PREFIX_PATH=/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1 -- -j8 -l8
+[64.264s] Invoking command in '/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1': CMAKE_PREFIX_PATH=/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1
+[64.298s] -- Install configuration: ""
+[64.299s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/lib/lpms_ig1/lpms_si1_node
+[64.312s] -- Set runtime path of "/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/lib/lpms_ig1/lpms_si1_node" to ""
+[64.313s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/lib/lpms_ig1/quat_to_euler_node
+[64.335s] -- Set runtime path of "/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/lib/lpms_ig1/quat_to_euler_node" to ""
+[64.336s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/lib/lpms_ig1/imudata_rad_to_deg_node
+[64.358s] -- Set runtime path of "/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/lib/lpms_ig1/imudata_rad_to_deg_node" to ""
+[64.359s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1//launch
+[64.360s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1//launch/lpms_si1_launch.py
+[64.362s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/ament_index/resource_index/package_run_dependencies/lpms_ig1
+[64.363s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/ament_index/resource_index/parent_prefix_path/lpms_ig1
+[64.364s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/environment/ament_prefix_path.sh
+[64.364s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/environment/ament_prefix_path.dsv
+[64.365s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/environment/path.sh
+[64.365s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/environment/path.dsv
+[64.366s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/local_setup.bash
+[64.367s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/local_setup.sh
+[64.367s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/local_setup.zsh
+[64.368s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/local_setup.dsv
+[64.369s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/package.dsv
+[64.369s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/ament_index/resource_index/packages/lpms_ig1
+[64.370s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/cmake/lpms_ig1Config.cmake
+[64.370s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/cmake/lpms_ig1Config-version.cmake
+[64.371s] -- Installing: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1/share/lpms_ig1/package.xml
+[64.383s] Invoked command in '/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1' returned '0': CMAKE_PREFIX_PATH=/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1

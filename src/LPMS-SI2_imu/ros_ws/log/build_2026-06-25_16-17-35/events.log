@@ -1,0 +1,292 @@
+[0.000000] (-) TimerEvent: {}
+[0.001195] (lpms_ig1) JobQueued: {'identifier': 'lpms_ig1', 'dependencies': OrderedDict()}
+[0.002167] (lpms_ig1) JobStarted: {'identifier': 'lpms_ig1'}
+[0.040752] (lpms_ig1) JobProgress: {'identifier': 'lpms_ig1', 'progress': 'cmake'}
+[0.042814] (lpms_ig1) Command: {'cmd': ['/usr/bin/cmake', '/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example', '-DCMAKE_INSTALL_PREFIX=/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1'], 'cwd': '/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1366'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src'), ('DESKTOP_SESSION', 'xfce'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sunrise'), ('WINDOWID', '54525955'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sunrise/.local/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.local/bin:/home/sunrise/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1229,unix/ubuntu:/tmp/.ICE-unix/1229'), ('GDM_LANG', 'en'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/sunrise/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX65ZllC/agent.1365'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/sunrise'), ('AMENT_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'xfce'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share'), ('PYTHONPATH', '/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble')]), 'shell': False}
+[0.099034] (-) TimerEvent: {}
+[0.199977] (-) TimerEvent: {}
+[0.300821] (-) TimerEvent: {}
+[0.348581] (lpms_ig1) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.401015] (-) TimerEvent: {}
+[0.502022] (-) TimerEvent: {}
+[0.603629] (-) TimerEvent: {}
+[0.677968] (lpms_ig1) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[0.703803] (-) TimerEvent: {}
+[0.712899] (lpms_ig1) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.804032] (-) TimerEvent: {}
+[0.904938] (-) TimerEvent: {}
+[1.005876] (-) TimerEvent: {}
+[1.082899] (lpms_ig1) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.106128] (-) TimerEvent: {}
+[1.165624] (lpms_ig1) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.182346] (lpms_ig1) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.183320] (lpms_ig1) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.206274] (-) TimerEvent: {}
+[1.209631] (lpms_ig1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.306498] (-) TimerEvent: {}
+[1.407405] (-) TimerEvent: {}
+[1.508286] (-) TimerEvent: {}
+[1.609345] (-) TimerEvent: {}
+[1.629756] (lpms_ig1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.709521] (-) TimerEvent: {}
+[1.717487] (lpms_ig1) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.718951] (lpms_ig1) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.721428] (lpms_ig1) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.736499] (lpms_ig1) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.809661] (-) TimerEvent: {}
+[1.910386] (-) TimerEvent: {}
+[2.011100] (-) TimerEvent: {}
+[2.111859] (-) TimerEvent: {}
+[2.212861] (-) TimerEvent: {}
+[2.314458] (-) TimerEvent: {}
+[2.415184] (-) TimerEvent: {}
+[2.515921] (-) TimerEvent: {}
+[2.616647] (-) TimerEvent: {}
+[2.717369] (-) TimerEvent: {}
+[2.818079] (-) TimerEvent: {}
+[2.918815] (-) TimerEvent: {}
+[3.019681] (-) TimerEvent: {}
+[3.120494] (-) TimerEvent: {}
+[3.221297] (-) TimerEvent: {}
+[3.322033] (-) TimerEvent: {}
+[3.422739] (-) TimerEvent: {}
+[3.523440] (-) TimerEvent: {}
+[3.624167] (-) TimerEvent: {}
+[3.724934] (-) TimerEvent: {}
+[3.825712] (-) TimerEvent: {}
+[3.926563] (-) TimerEvent: {}
+[3.961463] (lpms_ig1) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.026736] (-) TimerEvent: {}
+[4.127682] (-) TimerEvent: {}
+[4.229280] (-) TimerEvent: {}
+[4.330023] (-) TimerEvent: {}
+[4.430828] (-) TimerEvent: {}
+[4.515689] (lpms_ig1) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.530972] (-) TimerEvent: {}
+[4.631707] (-) TimerEvent: {}
+[4.716820] (lpms_ig1) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.731834] (-) TimerEvent: {}
+[4.741207] (lpms_ig1) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.789077] (lpms_ig1) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.831998] (-) TimerEvent: {}
+[4.860160] (lpms_ig1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.932178] (-) TimerEvent: {}
+[4.953980] (lpms_ig1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.032367] (-) TimerEvent: {}
+[5.133170] (-) TimerEvent: {}
+[5.202599] (lpms_ig1) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.215155] (lpms_ig1) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.233313] (-) TimerEvent: {}
+[5.334054] (-) TimerEvent: {}
+[5.434830] (-) TimerEvent: {}
+[5.535632] (-) TimerEvent: {}
+[5.632390] (lpms_ig1) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.635725] (-) TimerEvent: {}
+[5.736430] (-) TimerEvent: {}
+[5.752522] (lpms_ig1) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.836606] (-) TimerEvent: {}
+[5.921393] (lpms_ig1) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.936764] (-) TimerEvent: {}
+[5.960611] (lpms_ig1) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.036986] (-) TimerEvent: {}
+[6.137883] (-) TimerEvent: {}
+[6.248155] (-) TimerEvent: {}
+[6.349165] (-) TimerEvent: {}
+[6.355187] (lpms_ig1) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.356665] (lpms_ig1) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.449312] (-) TimerEvent: {}
+[6.550396] (-) TimerEvent: {}
+[6.652113] (-) TimerEvent: {}
+[6.753184] (-) TimerEvent: {}
+[6.766181] (lpms_ig1) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.775019] (lpms_ig1) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.853367] (-) TimerEvent: {}
+[6.954219] (-) TimerEvent: {}
+[7.054998] (-) TimerEvent: {}
+[7.128761] (lpms_ig1) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[7.155151] (-) TimerEvent: {}
+[7.255901] (-) TimerEvent: {}
+[7.324203] (lpms_ig1) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[7.356057] (-) TimerEvent: {}
+[7.387225] (lpms_ig1) StdoutLine: {'line': b'-- Found tf2: 0.25.15 (/opt/ros/humble/share/tf2/cmake)\n'}
+[7.456232] (-) TimerEvent: {}
+[7.496704] (lpms_ig1) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.556364] (-) TimerEvent: {}
+[7.657117] (-) TimerEvent: {}
+[7.757892] (-) TimerEvent: {}
+[7.858699] (-) TimerEvent: {}
+[7.959128] (lpms_ig1) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[7.959887] (-) TimerEvent: {}
+[7.966364] (lpms_ig1) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.969180] (lpms_ig1) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[7.969778] (lpms_ig1) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.977151] (lpms_ig1) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[7.977809] (lpms_ig1) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[7.980331] (lpms_ig1) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[7.983881] (lpms_ig1) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.986726] (lpms_ig1) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[7.993312] (lpms_ig1) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.994119] (lpms_ig1) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.997112] (lpms_ig1) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.005070] (lpms_ig1) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.060094] (-) TimerEvent: {}
+[8.160860] (-) TimerEvent: {}
+[8.162386] (lpms_ig1) StdoutLine: {'line': b'-- Generating done\n'}
+[8.239519] (lpms_ig1) StdoutLine: {'line': b'-- Build files have been written to: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1\n'}
+[8.261030] (-) TimerEvent: {}
+[8.309840] (lpms_ig1) CommandEnded: {'returncode': 0}
+[8.315309] (lpms_ig1) JobProgress: {'identifier': 'lpms_ig1', 'progress': 'build'}
+[8.324230] (lpms_ig1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1366'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src'), ('DESKTOP_SESSION', 'xfce'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sunrise'), ('WINDOWID', '54525955'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sunrise/.local/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.local/bin:/home/sunrise/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1229,unix/ubuntu:/tmp/.ICE-unix/1229'), ('GDM_LANG', 'en'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/sunrise/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX65ZllC/agent.1365'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/sunrise'), ('AMENT_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'xfce'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share'), ('PYTHONPATH', '/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble')]), 'shell': False}
+[8.361211] (-) TimerEvent: {}
+[8.462030] (-) TimerEvent: {}
+[8.561344] (lpms_ig1) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/imudata_rad_to_deg_node.dir/src/imudata_rad_to_deg_node.cpp.o\x1b[0m\n'}
+[8.562756] (-) TimerEvent: {}
+[8.563597] (lpms_ig1) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/lpms_ig1_rs485_client.dir/src/lpms_ig1_rs485_client.cpp.o\x1b[0m\n'}
+[8.564430] (lpms_ig1) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/lpms_be1_node.dir/src/lpms_be1_node.cpp.o\x1b[0m\n'}
+[8.565162] (lpms_ig1) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/lpms_nav3_node.dir/src/lpms_nav3_node.cpp.o\x1b[0m\n'}
+[8.565864] (lpms_ig1) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/lpms_ig1_node.dir/src/lpms_ig1_node.cpp.o\x1b[0m\n'}
+[8.566602] (lpms_ig1) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/lpms_ig1_rs485_node.dir/src/lpms_ig1_rs485_node.cpp.o\x1b[0m\n'}
+[8.567349] (lpms_ig1) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/quat_to_euler_node.dir/src/quat_to_euler_node.cpp.o\x1b[0m\n'}
+[8.569001] (lpms_ig1) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lpms_si1_node.dir/src/lpms_si1_node.cpp.o\x1b[0m\n'}
+[8.663016] (-) TimerEvent: {}
+[8.764062] (-) TimerEvent: {}
+[8.865088] (-) TimerEvent: {}
+[8.966116] (-) TimerEvent: {}
+[9.067164] (-) TimerEvent: {}
+[9.168169] (-) TimerEvent: {}
+[9.269566] (-) TimerEvent: {}
+[9.370841] (-) TimerEvent: {}
+[9.472184] (-) TimerEvent: {}
+[9.573768] (-) TimerEvent: {}
+[9.675966] (-) TimerEvent: {}
+[9.777050] (-) TimerEvent: {}
+[9.878183] (-) TimerEvent: {}
+[9.979569] (-) TimerEvent: {}
+[10.080707] (-) TimerEvent: {}
+[10.181903] (-) TimerEvent: {}
+[10.283061] (-) TimerEvent: {}
+[10.384281] (-) TimerEvent: {}
+[10.485494] (-) TimerEvent: {}
+[10.586622] (-) TimerEvent: {}
+[10.687764] (-) TimerEvent: {}
+[10.788961] (-) TimerEvent: {}
+[10.890228] (-) TimerEvent: {}
+[10.991393] (-) TimerEvent: {}
+[11.092543] (-) TimerEvent: {}
+[11.193684] (-) TimerEvent: {}
+[11.350352] (-) TimerEvent: {}
+[11.451834] (-) TimerEvent: {}
+[11.553298] (-) TimerEvent: {}
+[11.654824] (-) TimerEvent: {}
+[11.756356] (-) TimerEvent: {}
+[11.857843] (-) TimerEvent: {}
+[11.958951] (-) TimerEvent: {}
+[12.060092] (-) TimerEvent: {}
+[12.161193] (-) TimerEvent: {}
+[12.262301] (-) TimerEvent: {}
+[12.363396] (-) TimerEvent: {}
+[12.464576] (-) TimerEvent: {}
+[12.565738] (-) TimerEvent: {}
+[12.666941] (-) TimerEvent: {}
+[12.768135] (-) TimerEvent: {}
+[12.869351] (-) TimerEvent: {}
+[12.970533] (-) TimerEvent: {}
+[13.071744] (-) TimerEvent: {}
+[13.172918] (-) TimerEvent: {}
+[13.274079] (-) TimerEvent: {}
+[13.375174] (-) TimerEvent: {}
+[13.476244] (-) TimerEvent: {}
+[13.577308] (-) TimerEvent: {}
+[13.678389] (-) TimerEvent: {}
+[13.779492] (-) TimerEvent: {}
+[13.880614] (-) TimerEvent: {}
+[13.981725] (-) TimerEvent: {}
+[14.082856] (-) TimerEvent: {}
+[14.183976] (-) TimerEvent: {}
+[14.285076] (-) TimerEvent: {}
+[14.386188] (-) TimerEvent: {}
+[14.487295] (-) TimerEvent: {}
+[14.588431] (-) TimerEvent: {}
+[14.689523] (-) TimerEvent: {}
+[14.790660] (-) TimerEvent: {}
+[14.891773] (-) TimerEvent: {}
+[14.992889] (-) TimerEvent: {}
+[15.093994] (-) TimerEvent: {}
+[15.195082] (-) TimerEvent: {}
+[15.296194] (-) TimerEvent: {}
+[15.397383] (-) TimerEvent: {}
+[15.498621] (-) TimerEvent: {}
+[15.599831] (-) TimerEvent: {}
+[15.701053] (-) TimerEvent: {}
+[15.802301] (-) TimerEvent: {}
+[15.903426] (-) TimerEvent: {}
+[16.004602] (-) TimerEvent: {}
+[16.114951] (-) TimerEvent: {}
+[16.225437] (-) TimerEvent: {}
+[16.329365] (-) TimerEvent: {}
+[16.455415] (-) TimerEvent: {}
+[16.574498] (-) TimerEvent: {}
+[16.675926] (-) TimerEvent: {}
+[16.777201] (-) TimerEvent: {}
+[16.878464] (-) TimerEvent: {}
+[16.979678] (-) TimerEvent: {}
+[17.080964] (-) TimerEvent: {}
+[17.182996] (-) TimerEvent: {}
+[17.284131] (-) TimerEvent: {}
+[17.385202] (-) TimerEvent: {}
+[17.486349] (-) TimerEvent: {}
+[17.587502] (-) TimerEvent: {}
+[17.688671] (-) TimerEvent: {}
+[17.789827] (-) TimerEvent: {}
+[17.890974] (-) TimerEvent: {}
+[17.992228] (-) TimerEvent: {}
+[18.093521] (-) TimerEvent: {}
+[18.194794] (-) TimerEvent: {}
+[18.296002] (-) TimerEvent: {}
+[18.397170] (-) TimerEvent: {}
+[18.498435] (-) TimerEvent: {}
+[18.599571] (-) TimerEvent: {}
+[18.700738] (-) TimerEvent: {}
+[18.801924] (-) TimerEvent: {}
+[18.903212] (-) TimerEvent: {}
+[19.004424] (-) TimerEvent: {}
+[19.105733] (-) TimerEvent: {}
+[19.206992] (-) TimerEvent: {}
+[19.308276] (-) TimerEvent: {}
+[19.409533] (-) TimerEvent: {}
+[19.510669] (-) TimerEvent: {}
+[19.611893] (-) TimerEvent: {}
+[19.713132] (-) TimerEvent: {}
+[19.814381] (-) TimerEvent: {}
+[19.916204] (-) TimerEvent: {}
+[20.018011] (-) TimerEvent: {}
+[20.119413] (-) TimerEvent: {}
+[20.220509] (-) TimerEvent: {}
+[20.321657] (-) TimerEvent: {}
+[20.422732] (-) TimerEvent: {}
+[20.523848] (-) TimerEvent: {}
+[20.624976] (-) TimerEvent: {}
+[20.726121] (-) TimerEvent: {}
+[20.827256] (-) TimerEvent: {}
+[20.928368] (-) TimerEvent: {}
+[21.682415] (-) TimerEvent: {}
+[34.396673] (lpms_ig1) StderrLine: {'line': b'\x1b[01m\x1b[Kc++:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KKilled signal terminated program cc1plus\n'}
+[34.446705] (-) TimerEvent: {}
+[34.480839] (lpms_ig1) StderrLine: {'line': b'compilation terminated.\n'}
+[34.481813] (lpms_ig1) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/quat_to_euler_node.dir/build.make:76: CMakeFiles/quat_to_euler_node.dir/src/quat_to_euler_node.cpp.o] Error 1\n'}
+[34.482975] (lpms_ig1) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:307: CMakeFiles/quat_to_euler_node.dir/all] Error 2\n'}
+[34.483719] (lpms_ig1) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[34.546966] (-) TimerEvent: {}
+[34.648108] (-) TimerEvent: {}
+[34.749483] (-) TimerEvent: {}
+[34.851474] (-) TimerEvent: {}
+[34.952885] (-) TimerEvent: {}
+[35.053980] (-) TimerEvent: {}
+[35.155089] (-) TimerEvent: {}
+[35.256211] (-) TimerEvent: {}
+[35.357372] (-) TimerEvent: {}
+[35.458614] (-) TimerEvent: {}
+[35.560106] (-) TimerEvent: {}
+[35.661205] (-) TimerEvent: {}
+[36.995921] (-) TimerEvent: {}
+[60.622199] (-) TimerEvent: {}

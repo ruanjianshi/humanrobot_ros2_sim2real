@@ -1,0 +1,99 @@
+[0.050s] Invoking command in '/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1': CMAKE_PREFIX_PATH=/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble /usr/bin/cmake /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example -DCMAKE_BUILD_PARALLEL_LEVEL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1
+[0.103s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.866s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.007s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.022s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.055s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.109s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.179s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.356s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.363s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.791s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.070s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.265s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[2.321s] -- Found tf2: 0.25.15 (/opt/ros/humble/share/tf2/cmake)
+[2.410s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.868s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.875s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.878s] -- Configured cppcheck include dirs: 
+[2.878s] -- Configured cppcheck exclude dirs and/or files: 
+[2.884s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.885s] -- Configured cpplint exclude dirs and/or files: 
+[2.887s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.889s] -- Added test 'lint_cmake' to check CMake code style
+[2.892s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.898s] -- Added test 'uncrustify' to check C / C++ code style
+[2.899s] -- Configured uncrustify additional arguments: 
+[2.901s] -- Added test 'xmllint' to check XML markup files
+[2.907s] -- Configuring done
+[3.106s] -- Generating done
+[3.116s] [33mCMake Warning:
+[3.116s]   Manually-specified variables were not used by the project:
+[3.117s] 
+[3.117s]     CMAKE_BUILD_PARALLEL_LEVEL
+[3.118s] 
+[3.118s] [0m
+[3.185s] -- Build files have been written to: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1
+[3.244s] Invoked command in '/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1' returned '0': CMAKE_PREFIX_PATH=/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble /usr/bin/cmake /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/src/lpms_ig1_ros2_example -DCMAKE_BUILD_PARALLEL_LEVEL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/install/lpms_ig1
+[3.267s] Invoking command in '/home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1': CMAKE_PREFIX_PATH=/home/sunrise/Desktop/ros2_simreal_ws/install/sim2real:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1 -- -j8 -l8
+[3.376s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.129s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[4.262s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.277s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.306s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.360s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.427s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.599s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.605s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.033s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.306s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.470s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[5.516s] -- Found tf2: 0.25.15 (/opt/ros/humble/share/tf2/cmake)
+[5.593s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.990s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.996s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.998s] -- Configured cppcheck include dirs: 
+[5.999s] -- Configured cppcheck exclude dirs and/or files: 
+[6.004s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.004s] -- Configured cpplint exclude dirs and/or files: 
+[6.005s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.008s] -- Added test 'lint_cmake' to check CMake code style
+[6.009s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.014s] -- Added test 'uncrustify' to check C / C++ code style
+[6.015s] -- Configured uncrustify additional arguments: 
+[6.016s] -- Added test 'xmllint' to check XML markup files
+[6.020s] -- Configuring done
+[6.186s] -- Generating done
+[6.264s] -- Build files have been written to: /home/sunrise/Desktop/ros2_simreal_ws/src/LPMS-SI2_imu/ros_ws/build/lpms_ig1
+[6.390s] gmake[2]: Warning: File 'CMakeFiles/lpms_ig1_node.dir/flags.make' has modification time 835689758 s in the future
+[6.391s] gmake[2]: Warning: File 'CMakeFiles/lpms_be1_node.dir/flags.make' has modification time 835689758 s in the future
+[6.392s] gmake[2]: Warning: File 'CMakeFiles/lpms_nav3_node.dir/flags.make' has modification time 835689758 s in the future
+[6.393s] gmake[2]: Warning: File 'CMakeFiles/lpms_ig1_rs485_node.dir/flags.make' has modification time 835689758 s in the future
+[6.394s] gmake[2]: Warning: File 'CMakeFiles/lpms_si1_node.dir/flags.make' has modification time 835689758 s in the future
+[6.395s] gmake[2]: Warning: File 'CMakeFiles/quat_to_euler_node.dir/flags.make' has modification time 835689758 s in the future
+[6.395s] gmake[2]: Warning: File 'CMakeFiles/imudata_rad_to_deg_node.dir/flags.make' has modification time 835689758 s in the future
+[6.398s] gmake[2]: Warning: File 'CMakeFiles/lpms_ig1_rs485_client.dir/flags.make' has modification time 835689758 s in the future
+[6.429s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.431s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.432s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.433s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.434s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.436s] gmake[2]: Warning: File 'CMakeFiles/lpms_ig1_node.dir/flags.make' has modification time 835689758 s in the future
+[6.437s] gmake[2]: Warning: File 'CMakeFiles/lpms_be1_node.dir/flags.make' has modification time 835689758 s in the future
+[6.437s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.438s] gmake[2]: Warning: File 'CMakeFiles/lpms_nav3_node.dir/flags.make' has modification time 835689758 s in the future
+[6.439s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.439s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.441s] gmake[2]: Warning: File 'CMakeFiles/lpms_ig1_rs485_node.dir/flags.make' has modification time 835689758 s in the future
+[6.443s] gmake[2]: Warning: File 'CMakeFiles/lpms_ig1_rs485_client.dir/flags.make' has modification time 835689758 s in the future
+[6.443s] gmake[2]: Warning: File 'CMakeFiles/lpms_si1_node.dir/flags.make' has modification time 835689758 s in the future
+[6.445s] gmake[2]: Warning: File 'CMakeFiles/quat_to_euler_node.dir/flags.make' has modification time 835689758 s in the future
+[6.448s] gmake[2]: Warning: File 'CMakeFiles/imudata_rad_to_deg_node.dir/flags.make' has modification time 835689758 s in the future
+[6.471s] [ 12%] [32mBuilding CXX object CMakeFiles/lpms_ig1_node.dir/src/lpms_ig1_node.cpp.o[0m
+[6.474s] [ 12%] [32mBuilding CXX object CMakeFiles/lpms_be1_node.dir/src/lpms_be1_node.cpp.o[0m
+[6.475s] [ 18%] [32mBuilding CXX object CMakeFiles/lpms_nav3_node.dir/src/lpms_nav3_node.cpp.o[0m
+[6.477s] [ 25%] [32mBuilding CXX object CMakeFiles/lpms_ig1_rs485_node.dir/src/lpms_ig1_rs485_node.cpp.o[0m
+[6.482s] [ 31%] [32mBuilding CXX object CMakeFiles/lpms_si1_node.dir/src/lpms_si1_node.cpp.o[0m
+[6.487s] [ 43%] [32mBuilding CXX object CMakeFiles/quat_to_euler_node.dir/src/quat_to_euler_node.cpp.o[0m
+[6.488s] [ 43%] [32mBuilding CXX object CMakeFiles/imudata_rad_to_deg_node.dir/src/imudata_rad_to_deg_node.cpp.o[0m
+[6.493s] [ 50%] [32mBuilding CXX object CMakeFiles/lpms_ig1_rs485_client.dir/src/lpms_ig1_rs485_client.cpp.o[0m

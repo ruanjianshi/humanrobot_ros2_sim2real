@@ -1,0 +1,22 @@
+# 单电机测试配置
+# 用法: ros2 launch drive_motor drive_motor.launch.py config_file:=single_motor.yaml
+
+drive_motor_node:
+  ros__parameters:
+    motor_count: 1                    # 电机数量
+    can_device: "/dev/ttyACM0"        # CAN 设备 (RDK X5 上为 USB-CANFD)
+    can_baudrate: 1000000             # 波特率 (1Mbps)
+    loop_rate: 500                    # 主循环频率 (Hz)
+    kp_default: 55.0                  # PD 比例增益
+    kd_default: 0.8                   # PD 微分增益
+
+    # 关节列表 (数量和顺序必须与 motor_count 一致)
+    joint_names:
+      - "motor_0"                     # 单电机测试
+
+    # 机械限位 (rad)
+    joint_lower_limits:
+      - -6.0
+
+    joint_upper_limits:
+      - 6.0

@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from motor_interfaces/msg/MotorState.msg
+// generated code does not contain a copyright notice
+
+
+module motor_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "MotorState.msg — 电机反馈状态 (发布方: drive_motor, 频率: 500Hz)" "\n"
+      "" "\n"
+      "数据为电机原始编码器值 (电机坐标系)，未经 urdf_offset / direction 变换。" "\n"
+      "sim2real 会通过坐标变换将其转为机器人关节角度。")
+    struct MotorState {
+      @verbatim (language="comment", text=
+        "N个电机的当前实际位置 (rad, 电机坐标系)")
+      sequence<float> position;
+
+      @verbatim (language="comment", text=
+        "N个电机的当前实际速度 (rad/s)")
+      sequence<float> velocity;
+
+      @verbatim (language="comment", text=
+        "N个电机的当前实际力矩 (N·m / 电流推算)")
+      sequence<float> torque;
+    };
+  };
+};

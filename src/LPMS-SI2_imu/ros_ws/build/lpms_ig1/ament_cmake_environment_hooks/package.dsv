@@ -1,0 +1,4 @@
+source;share/lpms_ig1/local_setup.bash
+source;share/lpms_ig1/local_setup.dsv
+source;share/lpms_ig1/local_setup.sh
+source;share/lpms_ig1/local_setup.zsh
